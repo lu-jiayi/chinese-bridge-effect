@@ -72,9 +72,47 @@ for (var i = 0; i < 16; i++){
 
 console.log(presentation_list);
 
+/// add fillers
+for (var i = 1; i < 17; i++){
+  presentation_list.push(900000+i);
+};
+
+console.log(presentation_list);
 /// Actual experiment
 
+///pseudorandomize: shuffle, but check if there are more than 2 critical items in a row. 
+function isValid(arr) {
+  let onesCount = 0;
+  for (let i = 0; i < arr.length; i++) {
+      if (String(arr[i]).startsWith('1')) {
+          onesCount++;
+          if (onesCount > 2) {
+              return false;  // More than 2 numbers starting with 1 in a row
+          }
+      } else {
+          onesCount = 0;  // Reset the counter if a number starting with 9 appears
+      }
+  }
+  return true;  // The array satisfies the condition
+}
 
+// Repeat shuffling until the condition is met
+let pseudorandomized_list;
+do {
+  pseudorandomized_list = shuffle(presentation_list);  // Shuffle the array
+} while (!isValid(pseudorandomized_list));  // Keep shuffling until the array is valid
+
+presentation_list = pseudorandomized_list;
+console.log(presentation_list);
+
+const populated_list = presentation_list.map((integer) => all_stimuli.find((item) => item.unique_id === integer));
+
+console.log(populated_list);
+
+
+
+
+///actual experiment
 function make_slides(f) {
   var slides = {};  
   slides.i0 = slide({
@@ -123,7 +161,7 @@ function make_slides(f) {
       $(".err").hide();
       $(".errgood").hide();
       this.stim = stim;
-      $(".prompt").html("John went to the supermarket yesterday.");
+      $(".prompt").html("小男孩觉得午饭很好吃。");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
       exp.first_response_wrong = 0;
@@ -189,7 +227,7 @@ function make_slides(f) {
     present_handle : function(stim) {
       $(".err").hide();
       $(".errbad").hide();
-      $(".prompt").html("Sandy the big apple ate.");
+      $(".prompt").html("我放进去不清楚信件邮差。");
       this.init_sliders();
       exp.sliderPost = null; //erase current slider value
       exp.first_response_wrong = 0;
@@ -256,7 +294,7 @@ function make_slides(f) {
     /* trial information for this block
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
-    present : presentation_list,
+    present : populated_list,
     
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
@@ -289,15 +327,12 @@ function make_slides(f) {
       exp.data_trials.push({
         // item-specific fields
         "response" : exp.sliderPost,
-        "condition_gram" : this.stim.condition_gram,
-        "condition_alt" : this.stim.condition_alt,
-        "condition_cop" : this.stim.condition_cop,
-        "condition_loc" : this.stim.condition_loc,
-        "conj1" : this.stim.conj1,
-        "conj2" : this.stim.conj2,
-        "predicate" : this.stim.predicate,
+        "item": this.stim.lexicalization,
+        "sentence": this.stim.sentence,
+        "wh-type": this.stim.wh-type,
+        "length": this.stim.Length,
+        "verb": this.stim.Verb,
         "trial_sequence_total": order,
-        "item_number": this.stim.item,
         "sentence_id": this.stim.unique_id
       });
       order = order + 1;

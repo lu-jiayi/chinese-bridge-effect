@@ -69,10 +69,10 @@ $(function(){
   <br>
   <br>
 
-  <h3>Instructions</h3>
-  <p>In this experiment, you will be reading and rating some English sentences. For each sentence, your job is to rate how natural and acceptable the sentence sounds to you. </p>
-  <p><b>When rating the sentences, please use your intuition rather than school grammar</b>. <p>The sentence <i>"Who did you go to school with?"</i> is considered bad according to school grammar (because of the stranded preposition <i>with</i>). However, most English speakers find it totally acceptable. If you think a sentence is acceptable, you should give it a high rating regardless of what you learned in school.</p>
-  <button onclick="_s.button()">Continue</button>
+  <h3>注意事项</h3>
+  <p>在这项实验中，您将会读到一些中文句子。您需要判断这些句子听起来是否可接受（通顺、自然），并利用滑动条给出您的判断。</p>
+  <p>在判断句子听起来是否自然、可接受时，请只利用您作为母语者的直觉给出判断，不用参考您在学校语学的语法规则。</p>
+  <button onclick="_s.button()">继续</button>
 </div>
 
 
@@ -84,14 +84,14 @@ $(function(){
     <br>
     <br>
 
-    <p>Let's try one practice item. Please read the sentence and then rate how acceptable it sounds by dragging the slider bar.</p>
+    <p>下面是一个示例：</p>
     <b><p class="prompt"> </p></b>
     <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_1" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      <tr><td class="left">完全不可接受</td><td colspan="2"><div id="practice_slider_1" class="slider"></div></td><td class="right">完全可接受</td></tr>
     </table>
     <button onclick="_s.button()">Continue</button>
-    <div class="err">Please adjust the slider before continuing.</div>
-    <p class="errgood">This target sentence should sound acceptable. Please try again.</p>
+    <div class="err">请利用滑动条给出您的判断。</div>
+    <p class="errgood">这句话听起来是自然、通顺的。请您再试一次。</p>
   </div>
 
   <div class="slide" id="post_practice_1">
@@ -101,8 +101,8 @@ $(function(){
     <br>
     <br>
 
-    <p>Most English speakers find this sentence <b>acceptable</b>. If you think it is acceptable, you should give it a high rating by dragging the slider to the <b>right</b>.</p>
-    <button onclick="_s.button()">Continue</button>
+    <p>大多数中文母语者都会觉得这句话 <b>可接受</b>。如果您认为这句话可接受，请将滑动条拉向 <b>右侧</b>。</p>
+    <button onclick="_s.button()">继续</button>
   </div>
 
 <div class="slide" id="practice_slider_bad">
@@ -112,14 +112,14 @@ $(function(){
     <br>
     <br>
 
-    <p>Let's try another practice item. Please read sentence, and then rate how acceptable it sounds using the slider.</p>
+    <p>请您再完成一个示例。请判断这句话听起来是否自然、通顺、可接受。</p>
     <b><p class="prompt"> </p></b>
     <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="practice_slider_2" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      <tr><td class="left">完全不可接受</td><td colspan="2"><div id="practice_slider_2" class="slider"></div></td><td class="right">完全可接受</td></tr>
     </table>
-    <button onclick="_s.button()">Continue</button>
-    <div class="err">Please adjust the slider before continuing.</div>
-    <div class="errbad">This target sentence should be unacceptable. Please try again.</div>
+    <button onclick="_s.button()">继续</button>
+    <div class="err">请利用滑动条给出您的判断。</div>
+    <div class="errbad">这句话听起来是不自然、不通顺的。请您再试一次。</div>
 
   </div>
 
@@ -130,8 +130,8 @@ $(function(){
     <br>
     <br>
 
-    <p>Most English speakers find this sentence <b>unacceptable</b>. If you think it is unacceptable, you should give it a low rating by dragging the slider to the <b>left</b>.</p>
-    <button onclick="_s.button()">Continue</button>
+    <p>大多数中文母语者都会觉得这句话 <b>不可接受</b>。如果您认为这句话不可接受，请将滑动条拉向 <b>左侧</b>.</p>
+    <button onclick="_s.button()">继续</button>
   </div>
 
 
@@ -140,12 +140,11 @@ $(function(){
     <br>
     <br>
 
-    <p>Before we start the experiment, there are a few things to keep in mind:</p>
-    <p>(1) Please make sure you read each sentence carefully before giving ratings.</p>
-    <p>(2) You may see sentences that are totally acceptable or unacceptable, and you may also see sentences that are somewhere in between. Please make use of the full scale when rating them.</p>
-    <p>(3) Please use your intuition rather than school grammar to judge the acceptability of the target sentences.</p>
-    <p>When you are ready, please press the button to proceed.</p>
-    <button onclick="_s.button()">Click to begin the experiment</button>
+    <p>在实验正式开始前，请您注意：</p>
+    <p>(1) 在给出判断前仔细阅读屏幕上的句子。</p>
+    <p>(2) 您可能会遇到非常通顺的句子，非常不通顺的句子，或者一般通顺的句子。请利用整个滑动条进行作答。</p>
+    <p>(3) 请您利用母语者的直觉，<b>而非</b>学校中学到的语法规则来进行判断</p>
+    <button onclick="_s.button()">点击此处开始实验</button>
   </div>
 
 
@@ -167,10 +166,10 @@ $(function(){
     <p class="context"> </p>
   <b><p class="target"> </p></b>
     <table id="slider_table" class="slider_table">
-      <tr><td class="left">completely unacceptable</td><td colspan="2"><div id="single_slider" class="slider"></div></td><td class="right">completely acceptable</td></tr>
+      <tr><td class="left">完全不可接受</td><td colspan="2"><div id="single_slider" class="slider"></div></td><td class="right">完全可接受</td></tr>
     </table>
-    <button onclick="_s.button()">Continue</button>
-    <div class="err">Please adjust the slider before continuing.</div>
+    <button onclick="_s.button()">继续</button>
+    <div class="err">请利用滑动条给出您的判断。</div>
   </div>
 
   <!-- The following two slides are not used in this experiment -->
