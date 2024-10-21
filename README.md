@@ -1,3 +1,3 @@
-# Acceptability judgment dataset for subject-verb agreement with disjoined subjects 
+# Experimenting examining bridge effects in Chinese
 
-This is an acceptability judgment dataset for subject-verb agreement with disjoined subjects
+This is a project examining whether the bridge/non-bridge verb distinction holds in Chinese.
