@@ -204,9 +204,9 @@ $(function(){
       <div class="subj_info_title">附加问题</div>
       <p class="info">下面的问题是非必要完成的，但如果您选择回答，将会很大地帮助我们的研究。</p>
       <p>您认为您是否按要求完成了实验？</p>
-      <label><input type="radio"  name="assess" value="No"/>No</label>
-      <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
-      <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
+      <label><input type="radio"  name="assess" value="No"/>是</label>
+      <label><input type="radio"  name="assess" value="Yes"/>否</label>
+      <label><input type="radio"  name="assess" value="Confused"/>我不清楚实验的要求</label>
 
       <p>在实验中您是否遇到技术问题或者其他故障?</p>
       <textarea id="problems" rows="2" cols="50"></textarea>
@@ -228,7 +228,19 @@ $(function(){
         </select>
       </p>
 
-      <p>Age: <input type="text" id="age"/></p>
+      <p>年龄: <input type="text" id="age"/></p>
+
+      <p>请问您在12岁前主要居住在:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>中国大陆</label>
+          <label><option value="1"/>香港/澳门</label>
+          <label><option value="2"/>台湾</label>
+          <label><option value="3"/>新加坡/马来西亚</label>
+          <label><option value="4"/>美国/加拿大</label>
+          <label><option value="4"/>其他地区</label>
+        </select>
+      </p>
 
       <p>教育经历:
         <select id="education">
@@ -242,14 +254,14 @@ $(function(){
       </p>
 
       <p>母语: <input type="text" id="language"/></p>
-      <label>（您在14岁以下时在家庭中主要使用的语言）</label>
+      <label>（您在12岁以下时在家庭中主要使用的语言）</label>
 
 
 
       <p>如果您有其他留言、评价，请在下面的对话框中输入：</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
-      <button onclick="_s.submit()">Submit</button>
+      <button onclick="_s.submit()">提交</button>
     </div>
   </div>
 
