@@ -201,53 +201,52 @@ $(function(){
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Additional information</div>
-      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
-      <p>Did you read the instructions and do you think you did the task correctly?</p>
+      <div class="subj_info_title">附加问题</div>
+      <p class="info">下面的问题是非必要完成的，但如果您选择回答，将会很大地帮助我们的研究。</p>
+      <p>您认为您是否按要求完成了实验？</p>
       <label><input type="radio"  name="assess" value="No"/>No</label>
       <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
       <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
 
-      <p>Were there any problems or bugs in the experiment?</p>
+      <p>在实验中您是否遇到技术问题或者其他故障?</p>
       <textarea id="problems" rows="2" cols="50"></textarea>
 
-      <p>What do you think is a fair price for the work you did?</p>
-      <textarea id="fairprice" rows="1" cols="10"></textarea>
+      <p>您认为本实验的报酬是否合理？</p>
+      <select id="fairprice">
+        <label><option value="-1"/></label>
+        <label><option value="0"/>合理</label>
+        <label><option value="1"/>不合理（过低）</label>
+        <label><option value="2"/>不合理（过高）</label>
+      </select>
 
-      <p>Gender:
+      <p>性别:
         <select id="gender">
           <label><option value=""/></label>
-          <label><option value="Male"/>Male</label>
-          <label><option value="Female"/>Female</label>
-          <label><option value="Other"/>Other</label>
+          <label><option value="Male"/>男</label>
+          <label><option value="Female"/>女</label>
+          <label><option value="Other"/>其他</label>
         </select>
       </p>
 
       <p>Age: <input type="text" id="age"/></p>
 
-      <p>Level of Education:
+      <p>教育经历:
         <select id="education">
           <label><option value="-1"/></label>
-          <label><option value="0"/>Some High School</label>
-          <label><option value="1"/>Graduated High School</label>
-          <label><option value="2"/>Some College</label>
-          <label><option value="3"/>Graduated College</label>
-          <label><option value="4"/>Hold a higher degree</label>
+          <label><option value="0"/>初中以下</label>
+          <label><option value="1"/>初中</label>
+          <label><option value="2"/>高中</label>
+          <label><option value="3"/>本科</label>
+          <label><option value="4"/>本科以上</label>
         </select>
       </p>
 
-      <p>Native Language: <input type="text" id="language"/></p>
-      <label>(the language(s) spoken at home when you were a child)</label>
+      <p>母语: <input type="text" id="language"/></p>
+      <label>（您在14岁以下时在家庭中主要使用的语言）</label>
 
-      <p>Did you enjoy the task?</p>
-      <select id="enjoyment">
-        <label><option value="-1"></option></label>
-        <label><option value="0">Worse than the average task</option></label>
-        <label><option value="1" >An average task</option></label>
-        <label><option value="2">Better than average task</option></label>
-      </select>
 
-      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+
+      <p>如果您有其他留言、评价，请在下面的对话框中输入：</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
       <button onclick="_s.submit()">Submit</button>
@@ -255,10 +254,8 @@ $(function(){
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">Thanks for your Time!</p>
+    <p  class="big">感谢您参加本实验！页面将会被自动跳转回到Prolific，请您稍候。</p>
   </div>
-
-
 
 </body>
 </html>
