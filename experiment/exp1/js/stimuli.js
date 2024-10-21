@@ -3,7 +3,7 @@ const all_stimuli = [
   {
       "unique_id": 101011,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -19,7 +19,7 @@ const all_stimuli = [
   {
       "unique_id": 101012,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -35,7 +35,7 @@ const all_stimuli = [
   {
       "unique_id": 101021,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -51,7 +51,7 @@ const all_stimuli = [
   {
       "unique_id": 101022,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -67,7 +67,7 @@ const all_stimuli = [
   {
       "unique_id": 101031,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -83,7 +83,7 @@ const all_stimuli = [
   {
       "unique_id": 101032,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -99,7 +99,7 @@ const all_stimuli = [
   {
       "unique_id": 101041,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -115,7 +115,7 @@ const all_stimuli = [
   {
       "unique_id": 101042,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -131,7 +131,7 @@ const all_stimuli = [
   {
       "unique_id": 101051,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -147,7 +147,7 @@ const all_stimuli = [
   {
       "unique_id": 101052,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -163,7 +163,7 @@ const all_stimuli = [
   {
       "unique_id": 101061,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -179,7 +179,7 @@ const all_stimuli = [
   {
       "unique_id": 101062,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -195,7 +195,7 @@ const all_stimuli = [
   {
       "unique_id": 101071,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -211,7 +211,7 @@ const all_stimuli = [
   {
       "unique_id": 101072,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -227,7 +227,7 @@ const all_stimuli = [
   {
       "unique_id": 101081,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -243,7 +243,7 @@ const all_stimuli = [
   {
       "unique_id": 101082,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -259,7 +259,7 @@ const all_stimuli = [
   {
       "unique_id": 101091,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -275,7 +275,7 @@ const all_stimuli = [
   {
       "unique_id": 101092,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -291,7 +291,7 @@ const all_stimuli = [
   {
       "unique_id": 101101,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -307,7 +307,7 @@ const all_stimuli = [
   {
       "unique_id": 101102,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -323,7 +323,7 @@ const all_stimuli = [
   {
       "unique_id": 101111,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -339,7 +339,7 @@ const all_stimuli = [
   {
       "unique_id": 101112,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -355,7 +355,7 @@ const all_stimuli = [
   {
       "unique_id": 101121,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -371,7 +371,7 @@ const all_stimuli = [
   {
       "unique_id": 101122,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -387,7 +387,7 @@ const all_stimuli = [
   {
       "unique_id": 101131,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -403,7 +403,7 @@ const all_stimuli = [
   {
       "unique_id": 101132,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -419,7 +419,7 @@ const all_stimuli = [
   {
       "unique_id": 101141,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -435,7 +435,7 @@ const all_stimuli = [
   {
       "unique_id": 101142,
       "Lexicalization": 1,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -451,7 +451,7 @@ const all_stimuli = [
   {
       "unique_id": 102011,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -467,7 +467,7 @@ const all_stimuli = [
   {
       "unique_id": 102012,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -483,7 +483,7 @@ const all_stimuli = [
   {
       "unique_id": 102021,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -499,7 +499,7 @@ const all_stimuli = [
   {
       "unique_id": 102022,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -515,7 +515,7 @@ const all_stimuli = [
   {
       "unique_id": 102031,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -531,7 +531,7 @@ const all_stimuli = [
   {
       "unique_id": 102032,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -547,7 +547,7 @@ const all_stimuli = [
   {
       "unique_id": 102041,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -563,7 +563,7 @@ const all_stimuli = [
   {
       "unique_id": 102042,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -579,7 +579,7 @@ const all_stimuli = [
   {
       "unique_id": 102051,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -595,7 +595,7 @@ const all_stimuli = [
   {
       "unique_id": 102052,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -611,7 +611,7 @@ const all_stimuli = [
   {
       "unique_id": 102061,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -627,7 +627,7 @@ const all_stimuli = [
   {
       "unique_id": 102062,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -643,7 +643,7 @@ const all_stimuli = [
   {
       "unique_id": 102071,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -659,7 +659,7 @@ const all_stimuli = [
   {
       "unique_id": 102072,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -675,7 +675,7 @@ const all_stimuli = [
   {
       "unique_id": 102081,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -691,7 +691,7 @@ const all_stimuli = [
   {
       "unique_id": 102082,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -707,7 +707,7 @@ const all_stimuli = [
   {
       "unique_id": 102091,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -723,7 +723,7 @@ const all_stimuli = [
   {
       "unique_id": 102092,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -739,7 +739,7 @@ const all_stimuli = [
   {
       "unique_id": 102101,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -755,7 +755,7 @@ const all_stimuli = [
   {
       "unique_id": 102102,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -771,7 +771,7 @@ const all_stimuli = [
   {
       "unique_id": 102111,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -787,7 +787,7 @@ const all_stimuli = [
   {
       "unique_id": 102112,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -803,7 +803,7 @@ const all_stimuli = [
   {
       "unique_id": 102121,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -819,7 +819,7 @@ const all_stimuli = [
   {
       "unique_id": 102122,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -835,7 +835,7 @@ const all_stimuli = [
   {
       "unique_id": 102131,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -851,7 +851,7 @@ const all_stimuli = [
   {
       "unique_id": 102132,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -867,7 +867,7 @@ const all_stimuli = [
   {
       "unique_id": 102141,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -883,7 +883,7 @@ const all_stimuli = [
   {
       "unique_id": 102142,
       "Lexicalization": 2,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -899,7 +899,7 @@ const all_stimuli = [
   {
       "unique_id": 103011,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -915,7 +915,7 @@ const all_stimuli = [
   {
       "unique_id": 103012,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -931,7 +931,7 @@ const all_stimuli = [
   {
       "unique_id": 103021,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -947,7 +947,7 @@ const all_stimuli = [
   {
       "unique_id": 103022,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -963,7 +963,7 @@ const all_stimuli = [
   {
       "unique_id": 103031,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -979,7 +979,7 @@ const all_stimuli = [
   {
       "unique_id": 103032,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -995,7 +995,7 @@ const all_stimuli = [
   {
       "unique_id": 103041,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1011,7 +1011,7 @@ const all_stimuli = [
   {
       "unique_id": 103042,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1027,7 +1027,7 @@ const all_stimuli = [
   {
       "unique_id": 103051,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1043,7 +1043,7 @@ const all_stimuli = [
   {
       "unique_id": 103052,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1059,7 +1059,7 @@ const all_stimuli = [
   {
       "unique_id": 103061,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1075,7 +1075,7 @@ const all_stimuli = [
   {
       "unique_id": 103062,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1091,7 +1091,7 @@ const all_stimuli = [
   {
       "unique_id": 103071,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1107,7 +1107,7 @@ const all_stimuli = [
   {
       "unique_id": 103072,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1123,7 +1123,7 @@ const all_stimuli = [
   {
       "unique_id": 103081,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1139,7 +1139,7 @@ const all_stimuli = [
   {
       "unique_id": 103082,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1155,7 +1155,7 @@ const all_stimuli = [
   {
       "unique_id": 103091,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1171,7 +1171,7 @@ const all_stimuli = [
   {
       "unique_id": 103092,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1187,7 +1187,7 @@ const all_stimuli = [
   {
       "unique_id": 103101,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1203,7 +1203,7 @@ const all_stimuli = [
   {
       "unique_id": 103102,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1219,7 +1219,7 @@ const all_stimuli = [
   {
       "unique_id": 103111,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1235,7 +1235,7 @@ const all_stimuli = [
   {
       "unique_id": 103112,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1251,7 +1251,7 @@ const all_stimuli = [
   {
       "unique_id": 103121,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1267,7 +1267,7 @@ const all_stimuli = [
   {
       "unique_id": 103122,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1283,7 +1283,7 @@ const all_stimuli = [
   {
       "unique_id": 103131,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1299,7 +1299,7 @@ const all_stimuli = [
   {
       "unique_id": 103132,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1315,7 +1315,7 @@ const all_stimuli = [
   {
       "unique_id": 103141,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -1331,7 +1331,7 @@ const all_stimuli = [
   {
       "unique_id": 103142,
       "Lexicalization": 3,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -1347,7 +1347,7 @@ const all_stimuli = [
   {
       "unique_id": 104011,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1363,7 +1363,7 @@ const all_stimuli = [
   {
       "unique_id": 104012,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1379,7 +1379,7 @@ const all_stimuli = [
   {
       "unique_id": 104021,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1395,7 +1395,7 @@ const all_stimuli = [
   {
       "unique_id": 104022,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1411,7 +1411,7 @@ const all_stimuli = [
   {
       "unique_id": 104031,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1427,7 +1427,7 @@ const all_stimuli = [
   {
       "unique_id": 104032,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1443,7 +1443,7 @@ const all_stimuli = [
   {
       "unique_id": 104041,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1459,7 +1459,7 @@ const all_stimuli = [
   {
       "unique_id": 104042,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1475,7 +1475,7 @@ const all_stimuli = [
   {
       "unique_id": 104051,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1491,7 +1491,7 @@ const all_stimuli = [
   {
       "unique_id": 104052,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1507,7 +1507,7 @@ const all_stimuli = [
   {
       "unique_id": 104061,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1523,7 +1523,7 @@ const all_stimuli = [
   {
       "unique_id": 104062,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1539,7 +1539,7 @@ const all_stimuli = [
   {
       "unique_id": 104071,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1555,7 +1555,7 @@ const all_stimuli = [
   {
       "unique_id": 104072,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1571,7 +1571,7 @@ const all_stimuli = [
   {
       "unique_id": 104081,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1587,7 +1587,7 @@ const all_stimuli = [
   {
       "unique_id": 104082,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1603,7 +1603,7 @@ const all_stimuli = [
   {
       "unique_id": 104091,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1619,7 +1619,7 @@ const all_stimuli = [
   {
       "unique_id": 104092,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1635,7 +1635,7 @@ const all_stimuli = [
   {
       "unique_id": 104101,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1651,7 +1651,7 @@ const all_stimuli = [
   {
       "unique_id": 104102,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1667,7 +1667,7 @@ const all_stimuli = [
   {
       "unique_id": 104111,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1683,7 +1683,7 @@ const all_stimuli = [
   {
       "unique_id": 104112,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1699,7 +1699,7 @@ const all_stimuli = [
   {
       "unique_id": 104121,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1715,7 +1715,7 @@ const all_stimuli = [
   {
       "unique_id": 104122,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1731,7 +1731,7 @@ const all_stimuli = [
   {
       "unique_id": 104131,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1747,7 +1747,7 @@ const all_stimuli = [
   {
       "unique_id": 104132,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1763,7 +1763,7 @@ const all_stimuli = [
   {
       "unique_id": 104141,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -1779,7 +1779,7 @@ const all_stimuli = [
   {
       "unique_id": 104142,
       "Lexicalization": 4,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -1795,7 +1795,7 @@ const all_stimuli = [
   {
       "unique_id": 105011,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -1811,7 +1811,7 @@ const all_stimuli = [
   {
       "unique_id": 105012,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -1827,7 +1827,7 @@ const all_stimuli = [
   {
       "unique_id": 105021,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -1843,7 +1843,7 @@ const all_stimuli = [
   {
       "unique_id": 105022,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -1859,7 +1859,7 @@ const all_stimuli = [
   {
       "unique_id": 105031,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -1875,7 +1875,7 @@ const all_stimuli = [
   {
       "unique_id": 105032,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -1891,7 +1891,7 @@ const all_stimuli = [
   {
       "unique_id": 105041,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -1907,7 +1907,7 @@ const all_stimuli = [
   {
       "unique_id": 105042,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -1923,7 +1923,7 @@ const all_stimuli = [
   {
       "unique_id": 105051,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -1939,7 +1939,7 @@ const all_stimuli = [
   {
       "unique_id": 105052,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -1955,7 +1955,7 @@ const all_stimuli = [
   {
       "unique_id": 105061,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -1971,7 +1971,7 @@ const all_stimuli = [
   {
       "unique_id": 105062,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -1987,7 +1987,7 @@ const all_stimuli = [
   {
       "unique_id": 105071,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2003,7 +2003,7 @@ const all_stimuli = [
   {
       "unique_id": 105072,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2019,7 +2019,7 @@ const all_stimuli = [
   {
       "unique_id": 105081,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2035,7 +2035,7 @@ const all_stimuli = [
   {
       "unique_id": 105082,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2051,7 +2051,7 @@ const all_stimuli = [
   {
       "unique_id": 105091,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2067,7 +2067,7 @@ const all_stimuli = [
   {
       "unique_id": 105092,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2083,7 +2083,7 @@ const all_stimuli = [
   {
       "unique_id": 105101,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2099,7 +2099,7 @@ const all_stimuli = [
   {
       "unique_id": 105102,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2115,7 +2115,7 @@ const all_stimuli = [
   {
       "unique_id": 105111,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2131,7 +2131,7 @@ const all_stimuli = [
   {
       "unique_id": 105112,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2147,7 +2147,7 @@ const all_stimuli = [
   {
       "unique_id": 105121,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2163,7 +2163,7 @@ const all_stimuli = [
   {
       "unique_id": 105122,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2179,7 +2179,7 @@ const all_stimuli = [
   {
       "unique_id": 105131,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2195,7 +2195,7 @@ const all_stimuli = [
   {
       "unique_id": 105132,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2211,7 +2211,7 @@ const all_stimuli = [
   {
       "unique_id": 105141,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -2227,7 +2227,7 @@ const all_stimuli = [
   {
       "unique_id": 105142,
       "Lexicalization": 5,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -2243,7 +2243,7 @@ const all_stimuli = [
   {
       "unique_id": 106011,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2259,7 +2259,7 @@ const all_stimuli = [
   {
       "unique_id": 106012,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2275,7 +2275,7 @@ const all_stimuli = [
   {
       "unique_id": 106021,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2291,7 +2291,7 @@ const all_stimuli = [
   {
       "unique_id": 106022,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2307,7 +2307,7 @@ const all_stimuli = [
   {
       "unique_id": 106031,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2323,7 +2323,7 @@ const all_stimuli = [
   {
       "unique_id": 106032,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2339,7 +2339,7 @@ const all_stimuli = [
   {
       "unique_id": 106041,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2355,7 +2355,7 @@ const all_stimuli = [
   {
       "unique_id": 106042,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2371,7 +2371,7 @@ const all_stimuli = [
   {
       "unique_id": 106051,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2387,7 +2387,7 @@ const all_stimuli = [
   {
       "unique_id": 106052,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2403,7 +2403,7 @@ const all_stimuli = [
   {
       "unique_id": 106061,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2419,7 +2419,7 @@ const all_stimuli = [
   {
       "unique_id": 106062,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2435,7 +2435,7 @@ const all_stimuli = [
   {
       "unique_id": 106071,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2451,7 +2451,7 @@ const all_stimuli = [
   {
       "unique_id": 106072,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2467,7 +2467,7 @@ const all_stimuli = [
   {
       "unique_id": 106081,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2483,7 +2483,7 @@ const all_stimuli = [
   {
       "unique_id": 106082,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2499,7 +2499,7 @@ const all_stimuli = [
   {
       "unique_id": 106091,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2515,7 +2515,7 @@ const all_stimuli = [
   {
       "unique_id": 106092,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2531,7 +2531,7 @@ const all_stimuli = [
   {
       "unique_id": 106101,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2547,7 +2547,7 @@ const all_stimuli = [
   {
       "unique_id": 106102,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2563,7 +2563,7 @@ const all_stimuli = [
   {
       "unique_id": 106111,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2579,7 +2579,7 @@ const all_stimuli = [
   {
       "unique_id": 106112,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2595,7 +2595,7 @@ const all_stimuli = [
   {
       "unique_id": 106121,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2611,7 +2611,7 @@ const all_stimuli = [
   {
       "unique_id": 106122,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2627,7 +2627,7 @@ const all_stimuli = [
   {
       "unique_id": 106131,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2643,7 +2643,7 @@ const all_stimuli = [
   {
       "unique_id": 106132,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2659,7 +2659,7 @@ const all_stimuli = [
   {
       "unique_id": 106141,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -2675,7 +2675,7 @@ const all_stimuli = [
   {
       "unique_id": 106142,
       "Lexicalization": 6,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -2691,7 +2691,7 @@ const all_stimuli = [
   {
       "unique_id": 107011,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2707,7 +2707,7 @@ const all_stimuli = [
   {
       "unique_id": 107012,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2723,7 +2723,7 @@ const all_stimuli = [
   {
       "unique_id": 107021,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2739,7 +2739,7 @@ const all_stimuli = [
   {
       "unique_id": 107022,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2755,7 +2755,7 @@ const all_stimuli = [
   {
       "unique_id": 107031,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2771,7 +2771,7 @@ const all_stimuli = [
   {
       "unique_id": 107032,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2787,7 +2787,7 @@ const all_stimuli = [
   {
       "unique_id": 107041,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2803,7 +2803,7 @@ const all_stimuli = [
   {
       "unique_id": 107042,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2819,7 +2819,7 @@ const all_stimuli = [
   {
       "unique_id": 107051,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2835,7 +2835,7 @@ const all_stimuli = [
   {
       "unique_id": 107052,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2851,7 +2851,7 @@ const all_stimuli = [
   {
       "unique_id": 107061,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2867,7 +2867,7 @@ const all_stimuli = [
   {
       "unique_id": 107062,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2883,7 +2883,7 @@ const all_stimuli = [
   {
       "unique_id": 107071,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2899,7 +2899,7 @@ const all_stimuli = [
   {
       "unique_id": 107072,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2915,7 +2915,7 @@ const all_stimuli = [
   {
       "unique_id": 107081,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2931,7 +2931,7 @@ const all_stimuli = [
   {
       "unique_id": 107082,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2947,7 +2947,7 @@ const all_stimuli = [
   {
       "unique_id": 107091,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2963,7 +2963,7 @@ const all_stimuli = [
   {
       "unique_id": 107092,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -2979,7 +2979,7 @@ const all_stimuli = [
   {
       "unique_id": 107101,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -2995,7 +2995,7 @@ const all_stimuli = [
   {
       "unique_id": 107102,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -3011,7 +3011,7 @@ const all_stimuli = [
   {
       "unique_id": 107111,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -3027,7 +3027,7 @@ const all_stimuli = [
   {
       "unique_id": 107112,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -3043,7 +3043,7 @@ const all_stimuli = [
   {
       "unique_id": 107121,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -3059,7 +3059,7 @@ const all_stimuli = [
   {
       "unique_id": 107122,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -3075,7 +3075,7 @@ const all_stimuli = [
   {
       "unique_id": 107131,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -3091,7 +3091,7 @@ const all_stimuli = [
   {
       "unique_id": 107132,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -3107,7 +3107,7 @@ const all_stimuli = [
   {
       "unique_id": 107141,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -3123,7 +3123,7 @@ const all_stimuli = [
   {
       "unique_id": 107142,
       "Lexicalization": 7,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -3139,7 +3139,7 @@ const all_stimuli = [
   {
       "unique_id": 108011,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3155,7 +3155,7 @@ const all_stimuli = [
   {
       "unique_id": 108012,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3171,7 +3171,7 @@ const all_stimuli = [
   {
       "unique_id": 108021,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3187,7 +3187,7 @@ const all_stimuli = [
   {
       "unique_id": 108022,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3203,7 +3203,7 @@ const all_stimuli = [
   {
       "unique_id": 108031,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3219,7 +3219,7 @@ const all_stimuli = [
   {
       "unique_id": 108032,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3235,7 +3235,7 @@ const all_stimuli = [
   {
       "unique_id": 108041,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3251,7 +3251,7 @@ const all_stimuli = [
   {
       "unique_id": 108042,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3267,7 +3267,7 @@ const all_stimuli = [
   {
       "unique_id": 108051,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3283,7 +3283,7 @@ const all_stimuli = [
   {
       "unique_id": 108052,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3299,7 +3299,7 @@ const all_stimuli = [
   {
       "unique_id": 108061,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3315,7 +3315,7 @@ const all_stimuli = [
   {
       "unique_id": 108062,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3331,7 +3331,7 @@ const all_stimuli = [
   {
       "unique_id": 108071,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3347,7 +3347,7 @@ const all_stimuli = [
   {
       "unique_id": 108072,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3363,7 +3363,7 @@ const all_stimuli = [
   {
       "unique_id": 108081,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3379,7 +3379,7 @@ const all_stimuli = [
   {
       "unique_id": 108082,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3395,7 +3395,7 @@ const all_stimuli = [
   {
       "unique_id": 108091,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3411,7 +3411,7 @@ const all_stimuli = [
   {
       "unique_id": 108092,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3427,7 +3427,7 @@ const all_stimuli = [
   {
       "unique_id": 108101,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3443,7 +3443,7 @@ const all_stimuli = [
   {
       "unique_id": 108102,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3459,7 +3459,7 @@ const all_stimuli = [
   {
       "unique_id": 108111,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3475,7 +3475,7 @@ const all_stimuli = [
   {
       "unique_id": 108112,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3491,7 +3491,7 @@ const all_stimuli = [
   {
       "unique_id": 108121,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3507,7 +3507,7 @@ const all_stimuli = [
   {
       "unique_id": 108122,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3523,7 +3523,7 @@ const all_stimuli = [
   {
       "unique_id": 108131,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3539,7 +3539,7 @@ const all_stimuli = [
   {
       "unique_id": 108132,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3555,7 +3555,7 @@ const all_stimuli = [
   {
       "unique_id": 108141,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -3571,7 +3571,7 @@ const all_stimuli = [
   {
       "unique_id": 108142,
       "Lexicalization": 8,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -3587,7 +3587,7 @@ const all_stimuli = [
   {
       "unique_id": 109011,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3603,7 +3603,7 @@ const all_stimuli = [
   {
       "unique_id": 109012,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3619,7 +3619,7 @@ const all_stimuli = [
   {
       "unique_id": 109021,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3635,7 +3635,7 @@ const all_stimuli = [
   {
       "unique_id": 109022,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3651,7 +3651,7 @@ const all_stimuli = [
   {
       "unique_id": 109031,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3667,7 +3667,7 @@ const all_stimuli = [
   {
       "unique_id": 109032,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3683,7 +3683,7 @@ const all_stimuli = [
   {
       "unique_id": 109041,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3699,7 +3699,7 @@ const all_stimuli = [
   {
       "unique_id": 109042,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3715,7 +3715,7 @@ const all_stimuli = [
   {
       "unique_id": 109051,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3731,7 +3731,7 @@ const all_stimuli = [
   {
       "unique_id": 109052,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3747,7 +3747,7 @@ const all_stimuli = [
   {
       "unique_id": 109061,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3763,7 +3763,7 @@ const all_stimuli = [
   {
       "unique_id": 109062,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3779,7 +3779,7 @@ const all_stimuli = [
   {
       "unique_id": 109071,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3795,7 +3795,7 @@ const all_stimuli = [
   {
       "unique_id": 109072,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3811,7 +3811,7 @@ const all_stimuli = [
   {
       "unique_id": 109081,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3827,7 +3827,7 @@ const all_stimuli = [
   {
       "unique_id": 109082,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3843,7 +3843,7 @@ const all_stimuli = [
   {
       "unique_id": 109091,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3859,7 +3859,7 @@ const all_stimuli = [
   {
       "unique_id": 109092,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3875,7 +3875,7 @@ const all_stimuli = [
   {
       "unique_id": 109101,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3891,7 +3891,7 @@ const all_stimuli = [
   {
       "unique_id": 109102,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3907,7 +3907,7 @@ const all_stimuli = [
   {
       "unique_id": 109111,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3923,7 +3923,7 @@ const all_stimuli = [
   {
       "unique_id": 109112,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3939,7 +3939,7 @@ const all_stimuli = [
   {
       "unique_id": 109121,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3955,7 +3955,7 @@ const all_stimuli = [
   {
       "unique_id": 109122,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -3971,7 +3971,7 @@ const all_stimuli = [
   {
       "unique_id": 109131,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -3987,7 +3987,7 @@ const all_stimuli = [
   {
       "unique_id": 109132,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -4003,7 +4003,7 @@ const all_stimuli = [
   {
       "unique_id": 109141,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -4019,7 +4019,7 @@ const all_stimuli = [
   {
       "unique_id": 109142,
       "Lexicalization": 9,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -4035,7 +4035,7 @@ const all_stimuli = [
   {
       "unique_id": 110011,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4051,7 +4051,7 @@ const all_stimuli = [
   {
       "unique_id": 110012,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4067,7 +4067,7 @@ const all_stimuli = [
   {
       "unique_id": 110021,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4083,7 +4083,7 @@ const all_stimuli = [
   {
       "unique_id": 110022,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4099,7 +4099,7 @@ const all_stimuli = [
   {
       "unique_id": 110031,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4115,7 +4115,7 @@ const all_stimuli = [
   {
       "unique_id": 110032,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4131,7 +4131,7 @@ const all_stimuli = [
   {
       "unique_id": 110041,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4147,7 +4147,7 @@ const all_stimuli = [
   {
       "unique_id": 110042,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4163,7 +4163,7 @@ const all_stimuli = [
   {
       "unique_id": 110051,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4179,7 +4179,7 @@ const all_stimuli = [
   {
       "unique_id": 110052,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4195,7 +4195,7 @@ const all_stimuli = [
   {
       "unique_id": 110061,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4211,7 +4211,7 @@ const all_stimuli = [
   {
       "unique_id": 110062,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4227,7 +4227,7 @@ const all_stimuli = [
   {
       "unique_id": 110071,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4243,7 +4243,7 @@ const all_stimuli = [
   {
       "unique_id": 110072,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4259,7 +4259,7 @@ const all_stimuli = [
   {
       "unique_id": 110081,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4275,7 +4275,7 @@ const all_stimuli = [
   {
       "unique_id": 110082,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4291,7 +4291,7 @@ const all_stimuli = [
   {
       "unique_id": 110091,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4307,7 +4307,7 @@ const all_stimuli = [
   {
       "unique_id": 110092,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4323,7 +4323,7 @@ const all_stimuli = [
   {
       "unique_id": 110101,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4339,7 +4339,7 @@ const all_stimuli = [
   {
       "unique_id": 110102,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4355,7 +4355,7 @@ const all_stimuli = [
   {
       "unique_id": 110111,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4371,7 +4371,7 @@ const all_stimuli = [
   {
       "unique_id": 110112,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4387,7 +4387,7 @@ const all_stimuli = [
   {
       "unique_id": 110121,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4403,7 +4403,7 @@ const all_stimuli = [
   {
       "unique_id": 110122,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4419,7 +4419,7 @@ const all_stimuli = [
   {
       "unique_id": 110131,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4435,7 +4435,7 @@ const all_stimuli = [
   {
       "unique_id": 110132,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4451,7 +4451,7 @@ const all_stimuli = [
   {
       "unique_id": 110141,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -4467,7 +4467,7 @@ const all_stimuli = [
   {
       "unique_id": 110142,
       "Lexicalization": 10,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -4483,7 +4483,7 @@ const all_stimuli = [
   {
       "unique_id": 111011,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4499,7 +4499,7 @@ const all_stimuli = [
   {
       "unique_id": 111012,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4515,7 +4515,7 @@ const all_stimuli = [
   {
       "unique_id": 111021,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4531,7 +4531,7 @@ const all_stimuli = [
   {
       "unique_id": 111022,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4547,7 +4547,7 @@ const all_stimuli = [
   {
       "unique_id": 111031,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4563,7 +4563,7 @@ const all_stimuli = [
   {
       "unique_id": 111032,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4579,7 +4579,7 @@ const all_stimuli = [
   {
       "unique_id": 111041,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4595,7 +4595,7 @@ const all_stimuli = [
   {
       "unique_id": 111042,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4611,7 +4611,7 @@ const all_stimuli = [
   {
       "unique_id": 111051,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4627,7 +4627,7 @@ const all_stimuli = [
   {
       "unique_id": 111052,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4643,7 +4643,7 @@ const all_stimuli = [
   {
       "unique_id": 111061,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4659,7 +4659,7 @@ const all_stimuli = [
   {
       "unique_id": 111062,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4675,7 +4675,7 @@ const all_stimuli = [
   {
       "unique_id": 111071,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4691,7 +4691,7 @@ const all_stimuli = [
   {
       "unique_id": 111072,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4707,7 +4707,7 @@ const all_stimuli = [
   {
       "unique_id": 111081,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4723,7 +4723,7 @@ const all_stimuli = [
   {
       "unique_id": 111082,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4739,7 +4739,7 @@ const all_stimuli = [
   {
       "unique_id": 111091,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4755,7 +4755,7 @@ const all_stimuli = [
   {
       "unique_id": 111092,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4771,7 +4771,7 @@ const all_stimuli = [
   {
       "unique_id": 111101,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4787,7 +4787,7 @@ const all_stimuli = [
   {
       "unique_id": 111102,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4803,7 +4803,7 @@ const all_stimuli = [
   {
       "unique_id": 111111,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4819,7 +4819,7 @@ const all_stimuli = [
   {
       "unique_id": 111112,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4835,7 +4835,7 @@ const all_stimuli = [
   {
       "unique_id": 111121,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4851,7 +4851,7 @@ const all_stimuli = [
   {
       "unique_id": 111122,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4867,7 +4867,7 @@ const all_stimuli = [
   {
       "unique_id": 111131,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4883,7 +4883,7 @@ const all_stimuli = [
   {
       "unique_id": 111132,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4899,7 +4899,7 @@ const all_stimuli = [
   {
       "unique_id": 111141,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -4915,7 +4915,7 @@ const all_stimuli = [
   {
       "unique_id": 111142,
       "Lexicalization": 11,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -4931,7 +4931,7 @@ const all_stimuli = [
   {
       "unique_id": 112011,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -4947,7 +4947,7 @@ const all_stimuli = [
   {
       "unique_id": 112012,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -4963,7 +4963,7 @@ const all_stimuli = [
   {
       "unique_id": 112021,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -4979,7 +4979,7 @@ const all_stimuli = [
   {
       "unique_id": 112022,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -4995,7 +4995,7 @@ const all_stimuli = [
   {
       "unique_id": 112031,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5011,7 +5011,7 @@ const all_stimuli = [
   {
       "unique_id": 112032,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5027,7 +5027,7 @@ const all_stimuli = [
   {
       "unique_id": 112041,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5043,7 +5043,7 @@ const all_stimuli = [
   {
       "unique_id": 112042,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5059,7 +5059,7 @@ const all_stimuli = [
   {
       "unique_id": 112051,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5075,7 +5075,7 @@ const all_stimuli = [
   {
       "unique_id": 112052,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5091,7 +5091,7 @@ const all_stimuli = [
   {
       "unique_id": 112061,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5107,7 +5107,7 @@ const all_stimuli = [
   {
       "unique_id": 112062,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5123,7 +5123,7 @@ const all_stimuli = [
   {
       "unique_id": 112071,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5139,7 +5139,7 @@ const all_stimuli = [
   {
       "unique_id": 112072,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5155,7 +5155,7 @@ const all_stimuli = [
   {
       "unique_id": 112081,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5171,7 +5171,7 @@ const all_stimuli = [
   {
       "unique_id": 112082,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5187,7 +5187,7 @@ const all_stimuli = [
   {
       "unique_id": 112091,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5203,7 +5203,7 @@ const all_stimuli = [
   {
       "unique_id": 112092,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5219,7 +5219,7 @@ const all_stimuli = [
   {
       "unique_id": 112101,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5235,7 +5235,7 @@ const all_stimuli = [
   {
       "unique_id": 112102,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5251,7 +5251,7 @@ const all_stimuli = [
   {
       "unique_id": 112111,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5267,7 +5267,7 @@ const all_stimuli = [
   {
       "unique_id": 112112,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5283,7 +5283,7 @@ const all_stimuli = [
   {
       "unique_id": 112121,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5299,7 +5299,7 @@ const all_stimuli = [
   {
       "unique_id": 112122,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5315,7 +5315,7 @@ const all_stimuli = [
   {
       "unique_id": 112131,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5331,7 +5331,7 @@ const all_stimuli = [
   {
       "unique_id": 112132,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5347,7 +5347,7 @@ const all_stimuli = [
   {
       "unique_id": 112141,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -5363,7 +5363,7 @@ const all_stimuli = [
   {
       "unique_id": 112142,
       "Lexicalization": 12,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -5379,7 +5379,7 @@ const all_stimuli = [
   {
       "unique_id": 113011,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5395,7 +5395,7 @@ const all_stimuli = [
   {
       "unique_id": 113012,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5411,7 +5411,7 @@ const all_stimuli = [
   {
       "unique_id": 113021,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5427,7 +5427,7 @@ const all_stimuli = [
   {
       "unique_id": 113022,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5443,7 +5443,7 @@ const all_stimuli = [
   {
       "unique_id": 113031,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5459,7 +5459,7 @@ const all_stimuli = [
   {
       "unique_id": 113032,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5475,7 +5475,7 @@ const all_stimuli = [
   {
       "unique_id": 113041,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5491,7 +5491,7 @@ const all_stimuli = [
   {
       "unique_id": 113042,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5507,7 +5507,7 @@ const all_stimuli = [
   {
       "unique_id": 113051,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5523,7 +5523,7 @@ const all_stimuli = [
   {
       "unique_id": 113052,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5539,7 +5539,7 @@ const all_stimuli = [
   {
       "unique_id": 113061,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5555,7 +5555,7 @@ const all_stimuli = [
   {
       "unique_id": 113062,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5571,7 +5571,7 @@ const all_stimuli = [
   {
       "unique_id": 113071,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5587,7 +5587,7 @@ const all_stimuli = [
   {
       "unique_id": 113072,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5603,7 +5603,7 @@ const all_stimuli = [
   {
       "unique_id": 113081,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5619,7 +5619,7 @@ const all_stimuli = [
   {
       "unique_id": 113082,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5635,7 +5635,7 @@ const all_stimuli = [
   {
       "unique_id": 113091,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5651,7 +5651,7 @@ const all_stimuli = [
   {
       "unique_id": 113092,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5667,7 +5667,7 @@ const all_stimuli = [
   {
       "unique_id": 113101,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5683,7 +5683,7 @@ const all_stimuli = [
   {
       "unique_id": 113102,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5699,7 +5699,7 @@ const all_stimuli = [
   {
       "unique_id": 113111,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5715,7 +5715,7 @@ const all_stimuli = [
   {
       "unique_id": 113112,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5731,7 +5731,7 @@ const all_stimuli = [
   {
       "unique_id": 113121,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5747,7 +5747,7 @@ const all_stimuli = [
   {
       "unique_id": 113122,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5763,7 +5763,7 @@ const all_stimuli = [
   {
       "unique_id": 113131,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5779,7 +5779,7 @@ const all_stimuli = [
   {
       "unique_id": 113132,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5795,7 +5795,7 @@ const all_stimuli = [
   {
       "unique_id": 113141,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -5811,7 +5811,7 @@ const all_stimuli = [
   {
       "unique_id": 113142,
       "Lexicalization": 13,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -5827,7 +5827,7 @@ const all_stimuli = [
   {
       "unique_id": 114011,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -5843,7 +5843,7 @@ const all_stimuli = [
   {
       "unique_id": 114012,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -5859,7 +5859,7 @@ const all_stimuli = [
   {
       "unique_id": 114021,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -5875,7 +5875,7 @@ const all_stimuli = [
   {
       "unique_id": 114022,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -5891,7 +5891,7 @@ const all_stimuli = [
   {
       "unique_id": 114031,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -5907,7 +5907,7 @@ const all_stimuli = [
   {
       "unique_id": 114032,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -5923,7 +5923,7 @@ const all_stimuli = [
   {
       "unique_id": 114041,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -5939,7 +5939,7 @@ const all_stimuli = [
   {
       "unique_id": 114042,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -5955,7 +5955,7 @@ const all_stimuli = [
   {
       "unique_id": 114051,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -5971,7 +5971,7 @@ const all_stimuli = [
   {
       "unique_id": 114052,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -5987,7 +5987,7 @@ const all_stimuli = [
   {
       "unique_id": 114061,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6003,7 +6003,7 @@ const all_stimuli = [
   {
       "unique_id": 114062,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6019,7 +6019,7 @@ const all_stimuli = [
   {
       "unique_id": 114071,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6035,7 +6035,7 @@ const all_stimuli = [
   {
       "unique_id": 114072,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6051,7 +6051,7 @@ const all_stimuli = [
   {
       "unique_id": 114081,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6067,7 +6067,7 @@ const all_stimuli = [
   {
       "unique_id": 114082,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6083,7 +6083,7 @@ const all_stimuli = [
   {
       "unique_id": 114091,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6099,7 +6099,7 @@ const all_stimuli = [
   {
       "unique_id": 114092,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6115,7 +6115,7 @@ const all_stimuli = [
   {
       "unique_id": 114101,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6131,7 +6131,7 @@ const all_stimuli = [
   {
       "unique_id": 114102,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6147,7 +6147,7 @@ const all_stimuli = [
   {
       "unique_id": 114111,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6163,7 +6163,7 @@ const all_stimuli = [
   {
       "unique_id": 114112,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6179,7 +6179,7 @@ const all_stimuli = [
   {
       "unique_id": 114121,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6195,7 +6195,7 @@ const all_stimuli = [
   {
       "unique_id": 114122,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6211,7 +6211,7 @@ const all_stimuli = [
   {
       "unique_id": 114131,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6227,7 +6227,7 @@ const all_stimuli = [
   {
       "unique_id": 114132,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6243,7 +6243,7 @@ const all_stimuli = [
   {
       "unique_id": 114141,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -6259,7 +6259,7 @@ const all_stimuli = [
   {
       "unique_id": 114142,
       "Lexicalization": 14,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -6275,7 +6275,7 @@ const all_stimuli = [
   {
       "unique_id": 115011,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6291,7 +6291,7 @@ const all_stimuli = [
   {
       "unique_id": 115012,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6307,7 +6307,7 @@ const all_stimuli = [
   {
       "unique_id": 115021,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6323,7 +6323,7 @@ const all_stimuli = [
   {
       "unique_id": 115022,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6339,7 +6339,7 @@ const all_stimuli = [
   {
       "unique_id": 115031,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6355,7 +6355,7 @@ const all_stimuli = [
   {
       "unique_id": 115032,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6371,7 +6371,7 @@ const all_stimuli = [
   {
       "unique_id": 115041,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6387,7 +6387,7 @@ const all_stimuli = [
   {
       "unique_id": 115042,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6403,7 +6403,7 @@ const all_stimuli = [
   {
       "unique_id": 115051,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6419,7 +6419,7 @@ const all_stimuli = [
   {
       "unique_id": 115052,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6435,7 +6435,7 @@ const all_stimuli = [
   {
       "unique_id": 115061,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6451,7 +6451,7 @@ const all_stimuli = [
   {
       "unique_id": 115062,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6467,7 +6467,7 @@ const all_stimuli = [
   {
       "unique_id": 115071,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6483,7 +6483,7 @@ const all_stimuli = [
   {
       "unique_id": 115072,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6499,7 +6499,7 @@ const all_stimuli = [
   {
       "unique_id": 115081,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6515,7 +6515,7 @@ const all_stimuli = [
   {
       "unique_id": 115082,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6531,7 +6531,7 @@ const all_stimuli = [
   {
       "unique_id": 115091,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6547,7 +6547,7 @@ const all_stimuli = [
   {
       "unique_id": 115092,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6563,7 +6563,7 @@ const all_stimuli = [
   {
       "unique_id": 115101,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6579,7 +6579,7 @@ const all_stimuli = [
   {
       "unique_id": 115102,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6595,7 +6595,7 @@ const all_stimuli = [
   {
       "unique_id": 115111,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6611,7 +6611,7 @@ const all_stimuli = [
   {
       "unique_id": 115112,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6627,7 +6627,7 @@ const all_stimuli = [
   {
       "unique_id": 115121,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6643,7 +6643,7 @@ const all_stimuli = [
   {
       "unique_id": 115122,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6659,7 +6659,7 @@ const all_stimuli = [
   {
       "unique_id": 115131,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6675,7 +6675,7 @@ const all_stimuli = [
   {
       "unique_id": 115132,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6691,7 +6691,7 @@ const all_stimuli = [
   {
       "unique_id": 115141,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -6707,7 +6707,7 @@ const all_stimuli = [
   {
       "unique_id": 115142,
       "Lexicalization": 15,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -6723,7 +6723,7 @@ const all_stimuli = [
   {
       "unique_id": 116011,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6739,7 +6739,7 @@ const all_stimuli = [
   {
       "unique_id": 116012,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6755,7 +6755,7 @@ const all_stimuli = [
   {
       "unique_id": 116021,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6771,7 +6771,7 @@ const all_stimuli = [
   {
       "unique_id": 116022,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6787,7 +6787,7 @@ const all_stimuli = [
   {
       "unique_id": 116031,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6803,7 +6803,7 @@ const all_stimuli = [
   {
       "unique_id": 116032,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6819,7 +6819,7 @@ const all_stimuli = [
   {
       "unique_id": 116041,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6835,7 +6835,7 @@ const all_stimuli = [
   {
       "unique_id": 116042,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6851,7 +6851,7 @@ const all_stimuli = [
   {
       "unique_id": 116051,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6867,7 +6867,7 @@ const all_stimuli = [
   {
       "unique_id": 116052,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "想",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6883,7 +6883,7 @@ const all_stimuli = [
   {
       "unique_id": 116061,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6899,7 +6899,7 @@ const all_stimuli = [
   {
       "unique_id": 116062,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6915,7 +6915,7 @@ const all_stimuli = [
   {
       "unique_id": 116071,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6931,7 +6931,7 @@ const all_stimuli = [
   {
       "unique_id": 116072,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6947,7 +6947,7 @@ const all_stimuli = [
   {
       "unique_id": 116081,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6963,7 +6963,7 @@ const all_stimuli = [
   {
       "unique_id": 116082,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -6979,7 +6979,7 @@ const all_stimuli = [
   {
       "unique_id": 116091,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -6995,7 +6995,7 @@ const all_stimuli = [
   {
       "unique_id": 116092,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -7011,7 +7011,7 @@ const all_stimuli = [
   {
       "unique_id": 116101,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -7027,7 +7027,7 @@ const all_stimuli = [
   {
       "unique_id": 116102,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -7043,7 +7043,7 @@ const all_stimuli = [
   {
       "unique_id": 116111,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -7059,7 +7059,7 @@ const all_stimuli = [
   {
       "unique_id": 116112,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -7075,7 +7075,7 @@ const all_stimuli = [
   {
       "unique_id": 116121,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -7091,7 +7091,7 @@ const all_stimuli = [
   {
       "unique_id": 116122,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -7107,7 +7107,7 @@ const all_stimuli = [
   {
       "unique_id": 116131,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -7123,7 +7123,7 @@ const all_stimuli = [
   {
       "unique_id": 116132,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -7139,7 +7139,7 @@ const all_stimuli = [
   {
       "unique_id": 116141,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -7155,7 +7155,7 @@ const all_stimuli = [
   {
       "unique_id": 116142,
       "Lexicalization": 16,
-      "wh-type": "adj",
+      "wh_type": "adj",
       "Verb": "写",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -7171,7 +7171,7 @@ const all_stimuli = [
   {
       "unique_id": 201011,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7187,7 +7187,7 @@ const all_stimuli = [
   {
       "unique_id": 201012,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7203,7 +7203,7 @@ const all_stimuli = [
   {
       "unique_id": 201021,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7219,7 +7219,7 @@ const all_stimuli = [
   {
       "unique_id": 201022,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7235,7 +7235,7 @@ const all_stimuli = [
   {
       "unique_id": 201031,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7251,7 +7251,7 @@ const all_stimuli = [
   {
       "unique_id": 201032,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7267,7 +7267,7 @@ const all_stimuli = [
   {
       "unique_id": 201041,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7283,7 +7283,7 @@ const all_stimuli = [
   {
       "unique_id": 201042,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7299,7 +7299,7 @@ const all_stimuli = [
   {
       "unique_id": 201051,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7315,7 +7315,7 @@ const all_stimuli = [
   {
       "unique_id": 201052,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7331,7 +7331,7 @@ const all_stimuli = [
   {
       "unique_id": 201061,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7347,7 +7347,7 @@ const all_stimuli = [
   {
       "unique_id": 201062,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7363,7 +7363,7 @@ const all_stimuli = [
   {
       "unique_id": 201071,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7379,7 +7379,7 @@ const all_stimuli = [
   {
       "unique_id": 201072,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7395,7 +7395,7 @@ const all_stimuli = [
   {
       "unique_id": 201081,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7411,7 +7411,7 @@ const all_stimuli = [
   {
       "unique_id": 201082,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7427,7 +7427,7 @@ const all_stimuli = [
   {
       "unique_id": 201091,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7443,7 +7443,7 @@ const all_stimuli = [
   {
       "unique_id": 201092,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7459,7 +7459,7 @@ const all_stimuli = [
   {
       "unique_id": 201101,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7475,7 +7475,7 @@ const all_stimuli = [
   {
       "unique_id": 201102,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7491,7 +7491,7 @@ const all_stimuli = [
   {
       "unique_id": 201111,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7507,7 +7507,7 @@ const all_stimuli = [
   {
       "unique_id": 201112,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7523,7 +7523,7 @@ const all_stimuli = [
   {
       "unique_id": 201121,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7539,7 +7539,7 @@ const all_stimuli = [
   {
       "unique_id": 201122,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7555,7 +7555,7 @@ const all_stimuli = [
   {
       "unique_id": 201131,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7571,7 +7571,7 @@ const all_stimuli = [
   {
       "unique_id": 201132,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7587,7 +7587,7 @@ const all_stimuli = [
   {
       "unique_id": 201141,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "老师想知道",
@@ -7603,7 +7603,7 @@ const all_stimuli = [
   {
       "unique_id": 201142,
       "Lexicalization": 1,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "老师想知道",
@@ -7619,7 +7619,7 @@ const all_stimuli = [
   {
       "unique_id": 202011,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7635,7 +7635,7 @@ const all_stimuli = [
   {
       "unique_id": 202012,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7651,7 +7651,7 @@ const all_stimuli = [
   {
       "unique_id": 202021,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7667,7 +7667,7 @@ const all_stimuli = [
   {
       "unique_id": 202022,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7683,7 +7683,7 @@ const all_stimuli = [
   {
       "unique_id": 202031,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7699,7 +7699,7 @@ const all_stimuli = [
   {
       "unique_id": 202032,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7715,7 +7715,7 @@ const all_stimuli = [
   {
       "unique_id": 202041,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7731,7 +7731,7 @@ const all_stimuli = [
   {
       "unique_id": 202042,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7747,7 +7747,7 @@ const all_stimuli = [
   {
       "unique_id": 202051,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7763,7 +7763,7 @@ const all_stimuli = [
   {
       "unique_id": 202052,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7779,7 +7779,7 @@ const all_stimuli = [
   {
       "unique_id": 202061,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7795,7 +7795,7 @@ const all_stimuli = [
   {
       "unique_id": 202062,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7811,7 +7811,7 @@ const all_stimuli = [
   {
       "unique_id": 202071,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7827,7 +7827,7 @@ const all_stimuli = [
   {
       "unique_id": 202072,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7843,7 +7843,7 @@ const all_stimuli = [
   {
       "unique_id": 202081,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7859,7 +7859,7 @@ const all_stimuli = [
   {
       "unique_id": 202082,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7875,7 +7875,7 @@ const all_stimuli = [
   {
       "unique_id": 202091,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7891,7 +7891,7 @@ const all_stimuli = [
   {
       "unique_id": 202092,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7907,7 +7907,7 @@ const all_stimuli = [
   {
       "unique_id": 202101,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7923,7 +7923,7 @@ const all_stimuli = [
   {
       "unique_id": 202102,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7939,7 +7939,7 @@ const all_stimuli = [
   {
       "unique_id": 202111,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7955,7 +7955,7 @@ const all_stimuli = [
   {
       "unique_id": 202112,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -7971,7 +7971,7 @@ const all_stimuli = [
   {
       "unique_id": 202121,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -7987,7 +7987,7 @@ const all_stimuli = [
   {
       "unique_id": 202122,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -8003,7 +8003,7 @@ const all_stimuli = [
   {
       "unique_id": 202131,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -8019,7 +8019,7 @@ const all_stimuli = [
   {
       "unique_id": 202132,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -8035,7 +8035,7 @@ const all_stimuli = [
   {
       "unique_id": 202141,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "法官想知道",
@@ -8051,7 +8051,7 @@ const all_stimuli = [
   {
       "unique_id": 202142,
       "Lexicalization": 2,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "法官想知道",
@@ -8067,7 +8067,7 @@ const all_stimuli = [
   {
       "unique_id": 203011,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8083,7 +8083,7 @@ const all_stimuli = [
   {
       "unique_id": 203012,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8099,7 +8099,7 @@ const all_stimuli = [
   {
       "unique_id": 203021,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8115,7 +8115,7 @@ const all_stimuli = [
   {
       "unique_id": 203022,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8131,7 +8131,7 @@ const all_stimuli = [
   {
       "unique_id": 203031,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8147,7 +8147,7 @@ const all_stimuli = [
   {
       "unique_id": 203032,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8163,7 +8163,7 @@ const all_stimuli = [
   {
       "unique_id": 203041,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8179,7 +8179,7 @@ const all_stimuli = [
   {
       "unique_id": 203042,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8195,7 +8195,7 @@ const all_stimuli = [
   {
       "unique_id": 203051,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8211,7 +8211,7 @@ const all_stimuli = [
   {
       "unique_id": 203052,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8227,7 +8227,7 @@ const all_stimuli = [
   {
       "unique_id": 203061,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8243,7 +8243,7 @@ const all_stimuli = [
   {
       "unique_id": 203062,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8259,7 +8259,7 @@ const all_stimuli = [
   {
       "unique_id": 203071,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8275,7 +8275,7 @@ const all_stimuli = [
   {
       "unique_id": 203072,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8291,7 +8291,7 @@ const all_stimuli = [
   {
       "unique_id": 203081,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8307,7 +8307,7 @@ const all_stimuli = [
   {
       "unique_id": 203082,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8323,7 +8323,7 @@ const all_stimuli = [
   {
       "unique_id": 203091,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8339,7 +8339,7 @@ const all_stimuli = [
   {
       "unique_id": 203092,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8355,7 +8355,7 @@ const all_stimuli = [
   {
       "unique_id": 203101,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8371,7 +8371,7 @@ const all_stimuli = [
   {
       "unique_id": 203102,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8387,7 +8387,7 @@ const all_stimuli = [
   {
       "unique_id": 203111,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8403,7 +8403,7 @@ const all_stimuli = [
   {
       "unique_id": 203112,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8419,7 +8419,7 @@ const all_stimuli = [
   {
       "unique_id": 203121,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8435,7 +8435,7 @@ const all_stimuli = [
   {
       "unique_id": 203122,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8451,7 +8451,7 @@ const all_stimuli = [
   {
       "unique_id": 203131,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8467,7 +8467,7 @@ const all_stimuli = [
   {
       "unique_id": 203132,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8483,7 +8483,7 @@ const all_stimuli = [
   {
       "unique_id": 203141,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "经理想知道",
@@ -8499,7 +8499,7 @@ const all_stimuli = [
   {
       "unique_id": 203142,
       "Lexicalization": 3,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "经理想知道",
@@ -8515,7 +8515,7 @@ const all_stimuli = [
   {
       "unique_id": 204011,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8531,7 +8531,7 @@ const all_stimuli = [
   {
       "unique_id": 204012,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8547,7 +8547,7 @@ const all_stimuli = [
   {
       "unique_id": 204021,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8563,7 +8563,7 @@ const all_stimuli = [
   {
       "unique_id": 204022,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8579,7 +8579,7 @@ const all_stimuli = [
   {
       "unique_id": 204031,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8595,7 +8595,7 @@ const all_stimuli = [
   {
       "unique_id": 204032,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8611,7 +8611,7 @@ const all_stimuli = [
   {
       "unique_id": 204041,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8627,7 +8627,7 @@ const all_stimuli = [
   {
       "unique_id": 204042,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8643,7 +8643,7 @@ const all_stimuli = [
   {
       "unique_id": 204051,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8659,7 +8659,7 @@ const all_stimuli = [
   {
       "unique_id": 204052,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8675,7 +8675,7 @@ const all_stimuli = [
   {
       "unique_id": 204061,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8691,7 +8691,7 @@ const all_stimuli = [
   {
       "unique_id": 204062,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8707,7 +8707,7 @@ const all_stimuli = [
   {
       "unique_id": 204071,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8723,7 +8723,7 @@ const all_stimuli = [
   {
       "unique_id": 204072,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8739,7 +8739,7 @@ const all_stimuli = [
   {
       "unique_id": 204081,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8755,7 +8755,7 @@ const all_stimuli = [
   {
       "unique_id": 204082,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8771,7 +8771,7 @@ const all_stimuli = [
   {
       "unique_id": 204091,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8787,7 +8787,7 @@ const all_stimuli = [
   {
       "unique_id": 204092,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8803,7 +8803,7 @@ const all_stimuli = [
   {
       "unique_id": 204101,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8819,7 +8819,7 @@ const all_stimuli = [
   {
       "unique_id": 204102,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8835,7 +8835,7 @@ const all_stimuli = [
   {
       "unique_id": 204111,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8851,7 +8851,7 @@ const all_stimuli = [
   {
       "unique_id": 204112,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8867,7 +8867,7 @@ const all_stimuli = [
   {
       "unique_id": 204121,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8883,7 +8883,7 @@ const all_stimuli = [
   {
       "unique_id": 204122,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8899,7 +8899,7 @@ const all_stimuli = [
   {
       "unique_id": 204131,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8915,7 +8915,7 @@ const all_stimuli = [
   {
       "unique_id": 204132,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8931,7 +8931,7 @@ const all_stimuli = [
   {
       "unique_id": 204141,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "教授想知道",
@@ -8947,7 +8947,7 @@ const all_stimuli = [
   {
       "unique_id": 204142,
       "Lexicalization": 4,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "教授想知道",
@@ -8963,7 +8963,7 @@ const all_stimuli = [
   {
       "unique_id": 205011,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -8979,7 +8979,7 @@ const all_stimuli = [
   {
       "unique_id": 205012,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -8995,7 +8995,7 @@ const all_stimuli = [
   {
       "unique_id": 205021,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9011,7 +9011,7 @@ const all_stimuli = [
   {
       "unique_id": 205022,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9027,7 +9027,7 @@ const all_stimuli = [
   {
       "unique_id": 205031,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9043,7 +9043,7 @@ const all_stimuli = [
   {
       "unique_id": 205032,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9059,7 +9059,7 @@ const all_stimuli = [
   {
       "unique_id": 205041,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9075,7 +9075,7 @@ const all_stimuli = [
   {
       "unique_id": 205042,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9091,7 +9091,7 @@ const all_stimuli = [
   {
       "unique_id": 205051,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9107,7 +9107,7 @@ const all_stimuli = [
   {
       "unique_id": 205052,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9123,7 +9123,7 @@ const all_stimuli = [
   {
       "unique_id": 205061,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9139,7 +9139,7 @@ const all_stimuli = [
   {
       "unique_id": 205062,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9155,7 +9155,7 @@ const all_stimuli = [
   {
       "unique_id": 205071,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9171,7 +9171,7 @@ const all_stimuli = [
   {
       "unique_id": 205072,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9187,7 +9187,7 @@ const all_stimuli = [
   {
       "unique_id": 205081,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9203,7 +9203,7 @@ const all_stimuli = [
   {
       "unique_id": 205082,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9219,7 +9219,7 @@ const all_stimuli = [
   {
       "unique_id": 205091,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9235,7 +9235,7 @@ const all_stimuli = [
   {
       "unique_id": 205092,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9251,7 +9251,7 @@ const all_stimuli = [
   {
       "unique_id": 205101,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9267,7 +9267,7 @@ const all_stimuli = [
   {
       "unique_id": 205102,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9283,7 +9283,7 @@ const all_stimuli = [
   {
       "unique_id": 205111,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9299,7 +9299,7 @@ const all_stimuli = [
   {
       "unique_id": 205112,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9315,7 +9315,7 @@ const all_stimuli = [
   {
       "unique_id": 205121,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9331,7 +9331,7 @@ const all_stimuli = [
   {
       "unique_id": 205122,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9347,7 +9347,7 @@ const all_stimuli = [
   {
       "unique_id": 205131,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9363,7 +9363,7 @@ const all_stimuli = [
   {
       "unique_id": 205132,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9379,7 +9379,7 @@ const all_stimuli = [
   {
       "unique_id": 205141,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "市长想知道",
@@ -9395,7 +9395,7 @@ const all_stimuli = [
   {
       "unique_id": 205142,
       "Lexicalization": 5,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "市长想知道",
@@ -9411,7 +9411,7 @@ const all_stimuli = [
   {
       "unique_id": 206011,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9427,7 +9427,7 @@ const all_stimuli = [
   {
       "unique_id": 206012,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9443,7 +9443,7 @@ const all_stimuli = [
   {
       "unique_id": 206021,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9459,7 +9459,7 @@ const all_stimuli = [
   {
       "unique_id": 206022,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9475,7 +9475,7 @@ const all_stimuli = [
   {
       "unique_id": 206031,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9491,7 +9491,7 @@ const all_stimuli = [
   {
       "unique_id": 206032,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9507,7 +9507,7 @@ const all_stimuli = [
   {
       "unique_id": 206041,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9523,7 +9523,7 @@ const all_stimuli = [
   {
       "unique_id": 206042,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9539,7 +9539,7 @@ const all_stimuli = [
   {
       "unique_id": 206051,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9555,7 +9555,7 @@ const all_stimuli = [
   {
       "unique_id": 206052,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9571,7 +9571,7 @@ const all_stimuli = [
   {
       "unique_id": 206061,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9587,7 +9587,7 @@ const all_stimuli = [
   {
       "unique_id": 206062,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9603,7 +9603,7 @@ const all_stimuli = [
   {
       "unique_id": 206071,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9619,7 +9619,7 @@ const all_stimuli = [
   {
       "unique_id": 206072,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9635,7 +9635,7 @@ const all_stimuli = [
   {
       "unique_id": 206081,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9651,7 +9651,7 @@ const all_stimuli = [
   {
       "unique_id": 206082,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9667,7 +9667,7 @@ const all_stimuli = [
   {
       "unique_id": 206091,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9683,7 +9683,7 @@ const all_stimuli = [
   {
       "unique_id": 206092,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9699,7 +9699,7 @@ const all_stimuli = [
   {
       "unique_id": 206101,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9715,7 +9715,7 @@ const all_stimuli = [
   {
       "unique_id": 206102,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9731,7 +9731,7 @@ const all_stimuli = [
   {
       "unique_id": 206111,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9747,7 +9747,7 @@ const all_stimuli = [
   {
       "unique_id": 206112,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9763,7 +9763,7 @@ const all_stimuli = [
   {
       "unique_id": 206121,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9779,7 +9779,7 @@ const all_stimuli = [
   {
       "unique_id": 206122,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9795,7 +9795,7 @@ const all_stimuli = [
   {
       "unique_id": 206131,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9811,7 +9811,7 @@ const all_stimuli = [
   {
       "unique_id": 206132,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9827,7 +9827,7 @@ const all_stimuli = [
   {
       "unique_id": 206141,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "检察官想知道",
@@ -9843,7 +9843,7 @@ const all_stimuli = [
   {
       "unique_id": 206142,
       "Lexicalization": 6,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "检察官想知道",
@@ -9859,7 +9859,7 @@ const all_stimuli = [
   {
       "unique_id": 207011,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -9875,7 +9875,7 @@ const all_stimuli = [
   {
       "unique_id": 207012,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -9891,7 +9891,7 @@ const all_stimuli = [
   {
       "unique_id": 207021,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -9907,7 +9907,7 @@ const all_stimuli = [
   {
       "unique_id": 207022,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -9923,7 +9923,7 @@ const all_stimuli = [
   {
       "unique_id": 207031,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -9939,7 +9939,7 @@ const all_stimuli = [
   {
       "unique_id": 207032,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -9955,7 +9955,7 @@ const all_stimuli = [
   {
       "unique_id": 207041,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -9971,7 +9971,7 @@ const all_stimuli = [
   {
       "unique_id": 207042,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -9987,7 +9987,7 @@ const all_stimuli = [
   {
       "unique_id": 207051,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10003,7 +10003,7 @@ const all_stimuli = [
   {
       "unique_id": 207052,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10019,7 +10019,7 @@ const all_stimuli = [
   {
       "unique_id": 207061,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10035,7 +10035,7 @@ const all_stimuli = [
   {
       "unique_id": 207062,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10051,7 +10051,7 @@ const all_stimuli = [
   {
       "unique_id": 207071,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10067,7 +10067,7 @@ const all_stimuli = [
   {
       "unique_id": 207072,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10083,7 +10083,7 @@ const all_stimuli = [
   {
       "unique_id": 207081,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10099,7 +10099,7 @@ const all_stimuli = [
   {
       "unique_id": 207082,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10115,7 +10115,7 @@ const all_stimuli = [
   {
       "unique_id": 207091,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10131,7 +10131,7 @@ const all_stimuli = [
   {
       "unique_id": 207092,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10147,7 +10147,7 @@ const all_stimuli = [
   {
       "unique_id": 207101,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10163,7 +10163,7 @@ const all_stimuli = [
   {
       "unique_id": 207102,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10179,7 +10179,7 @@ const all_stimuli = [
   {
       "unique_id": 207111,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10195,7 +10195,7 @@ const all_stimuli = [
   {
       "unique_id": 207112,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10211,7 +10211,7 @@ const all_stimuli = [
   {
       "unique_id": 207121,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10227,7 +10227,7 @@ const all_stimuli = [
   {
       "unique_id": 207122,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10243,7 +10243,7 @@ const all_stimuli = [
   {
       "unique_id": 207131,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10259,7 +10259,7 @@ const all_stimuli = [
   {
       "unique_id": 207132,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10275,7 +10275,7 @@ const all_stimuli = [
   {
       "unique_id": 207141,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "村长想知道",
@@ -10291,7 +10291,7 @@ const all_stimuli = [
   {
       "unique_id": 207142,
       "Lexicalization": 7,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "村长想知道",
@@ -10307,7 +10307,7 @@ const all_stimuli = [
   {
       "unique_id": 208011,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10323,7 +10323,7 @@ const all_stimuli = [
   {
       "unique_id": 208012,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10339,7 +10339,7 @@ const all_stimuli = [
   {
       "unique_id": 208021,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10355,7 +10355,7 @@ const all_stimuli = [
   {
       "unique_id": 208022,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10371,7 +10371,7 @@ const all_stimuli = [
   {
       "unique_id": 208031,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10387,7 +10387,7 @@ const all_stimuli = [
   {
       "unique_id": 208032,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10403,7 +10403,7 @@ const all_stimuli = [
   {
       "unique_id": 208041,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10419,7 +10419,7 @@ const all_stimuli = [
   {
       "unique_id": 208042,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10435,7 +10435,7 @@ const all_stimuli = [
   {
       "unique_id": 208051,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10451,7 +10451,7 @@ const all_stimuli = [
   {
       "unique_id": 208052,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10467,7 +10467,7 @@ const all_stimuli = [
   {
       "unique_id": 208061,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10483,7 +10483,7 @@ const all_stimuli = [
   {
       "unique_id": 208062,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10499,7 +10499,7 @@ const all_stimuli = [
   {
       "unique_id": 208071,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10515,7 +10515,7 @@ const all_stimuli = [
   {
       "unique_id": 208072,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10531,7 +10531,7 @@ const all_stimuli = [
   {
       "unique_id": 208081,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10547,7 +10547,7 @@ const all_stimuli = [
   {
       "unique_id": 208082,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10563,7 +10563,7 @@ const all_stimuli = [
   {
       "unique_id": 208091,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10579,7 +10579,7 @@ const all_stimuli = [
   {
       "unique_id": 208092,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10595,7 +10595,7 @@ const all_stimuli = [
   {
       "unique_id": 208101,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10611,7 +10611,7 @@ const all_stimuli = [
   {
       "unique_id": 208102,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10627,7 +10627,7 @@ const all_stimuli = [
   {
       "unique_id": 208111,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10643,7 +10643,7 @@ const all_stimuli = [
   {
       "unique_id": 208112,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10659,7 +10659,7 @@ const all_stimuli = [
   {
       "unique_id": 208121,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10675,7 +10675,7 @@ const all_stimuli = [
   {
       "unique_id": 208122,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10691,7 +10691,7 @@ const all_stimuli = [
   {
       "unique_id": 208131,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10707,7 +10707,7 @@ const all_stimuli = [
   {
       "unique_id": 208132,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10723,7 +10723,7 @@ const all_stimuli = [
   {
       "unique_id": 208141,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "侦探想知道",
@@ -10739,7 +10739,7 @@ const all_stimuli = [
   {
       "unique_id": 208142,
       "Lexicalization": 8,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "侦探想知道",
@@ -10755,7 +10755,7 @@ const all_stimuli = [
   {
       "unique_id": 209011,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10771,7 +10771,7 @@ const all_stimuli = [
   {
       "unique_id": 209012,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10787,7 +10787,7 @@ const all_stimuli = [
   {
       "unique_id": 209021,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10803,7 +10803,7 @@ const all_stimuli = [
   {
       "unique_id": 209022,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10819,7 +10819,7 @@ const all_stimuli = [
   {
       "unique_id": 209031,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10835,7 +10835,7 @@ const all_stimuli = [
   {
       "unique_id": 209032,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10851,7 +10851,7 @@ const all_stimuli = [
   {
       "unique_id": 209041,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10867,7 +10867,7 @@ const all_stimuli = [
   {
       "unique_id": 209042,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10883,7 +10883,7 @@ const all_stimuli = [
   {
       "unique_id": 209051,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10899,7 +10899,7 @@ const all_stimuli = [
   {
       "unique_id": 209052,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10915,7 +10915,7 @@ const all_stimuli = [
   {
       "unique_id": 209061,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10931,7 +10931,7 @@ const all_stimuli = [
   {
       "unique_id": 209062,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10947,7 +10947,7 @@ const all_stimuli = [
   {
       "unique_id": 209071,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10963,7 +10963,7 @@ const all_stimuli = [
   {
       "unique_id": 209072,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -10979,7 +10979,7 @@ const all_stimuli = [
   {
       "unique_id": 209081,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -10995,7 +10995,7 @@ const all_stimuli = [
   {
       "unique_id": 209082,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11011,7 +11011,7 @@ const all_stimuli = [
   {
       "unique_id": 209091,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -11027,7 +11027,7 @@ const all_stimuli = [
   {
       "unique_id": 209092,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11043,7 +11043,7 @@ const all_stimuli = [
   {
       "unique_id": 209101,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -11059,7 +11059,7 @@ const all_stimuli = [
   {
       "unique_id": 209102,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11075,7 +11075,7 @@ const all_stimuli = [
   {
       "unique_id": 209111,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -11091,7 +11091,7 @@ const all_stimuli = [
   {
       "unique_id": 209112,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11107,7 +11107,7 @@ const all_stimuli = [
   {
       "unique_id": 209121,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -11123,7 +11123,7 @@ const all_stimuli = [
   {
       "unique_id": 209122,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11139,7 +11139,7 @@ const all_stimuli = [
   {
       "unique_id": 209131,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -11155,7 +11155,7 @@ const all_stimuli = [
   {
       "unique_id": 209132,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11171,7 +11171,7 @@ const all_stimuli = [
   {
       "unique_id": 209141,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "将军想知道",
@@ -11187,7 +11187,7 @@ const all_stimuli = [
   {
       "unique_id": 209142,
       "Lexicalization": 9,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "将军想知道",
@@ -11203,7 +11203,7 @@ const all_stimuli = [
   {
       "unique_id": 210011,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11219,7 +11219,7 @@ const all_stimuli = [
   {
       "unique_id": 210012,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11235,7 +11235,7 @@ const all_stimuli = [
   {
       "unique_id": 210021,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11251,7 +11251,7 @@ const all_stimuli = [
   {
       "unique_id": 210022,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11267,7 +11267,7 @@ const all_stimuli = [
   {
       "unique_id": 210031,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11283,7 +11283,7 @@ const all_stimuli = [
   {
       "unique_id": 210032,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11299,7 +11299,7 @@ const all_stimuli = [
   {
       "unique_id": 210041,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11315,7 +11315,7 @@ const all_stimuli = [
   {
       "unique_id": 210042,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11331,7 +11331,7 @@ const all_stimuli = [
   {
       "unique_id": 210051,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11347,7 +11347,7 @@ const all_stimuli = [
   {
       "unique_id": 210052,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11363,7 +11363,7 @@ const all_stimuli = [
   {
       "unique_id": 210061,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11379,7 +11379,7 @@ const all_stimuli = [
   {
       "unique_id": 210062,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11395,7 +11395,7 @@ const all_stimuli = [
   {
       "unique_id": 210071,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11411,7 +11411,7 @@ const all_stimuli = [
   {
       "unique_id": 210072,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11427,7 +11427,7 @@ const all_stimuli = [
   {
       "unique_id": 210081,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11443,7 +11443,7 @@ const all_stimuli = [
   {
       "unique_id": 210082,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11459,7 +11459,7 @@ const all_stimuli = [
   {
       "unique_id": 210091,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11475,7 +11475,7 @@ const all_stimuli = [
   {
       "unique_id": 210092,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11491,7 +11491,7 @@ const all_stimuli = [
   {
       "unique_id": 210101,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11507,7 +11507,7 @@ const all_stimuli = [
   {
       "unique_id": 210102,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11523,7 +11523,7 @@ const all_stimuli = [
   {
       "unique_id": 210111,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11539,7 +11539,7 @@ const all_stimuli = [
   {
       "unique_id": 210112,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11555,7 +11555,7 @@ const all_stimuli = [
   {
       "unique_id": 210121,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11571,7 +11571,7 @@ const all_stimuli = [
   {
       "unique_id": 210122,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11587,7 +11587,7 @@ const all_stimuli = [
   {
       "unique_id": 210131,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11603,7 +11603,7 @@ const all_stimuli = [
   {
       "unique_id": 210132,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11619,7 +11619,7 @@ const all_stimuli = [
   {
       "unique_id": 210141,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "导游想知道",
@@ -11635,7 +11635,7 @@ const all_stimuli = [
   {
       "unique_id": 210142,
       "Lexicalization": 10,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "导游想知道",
@@ -11651,7 +11651,7 @@ const all_stimuli = [
   {
       "unique_id": 211011,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11667,7 +11667,7 @@ const all_stimuli = [
   {
       "unique_id": 211012,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11683,7 +11683,7 @@ const all_stimuli = [
   {
       "unique_id": 211021,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11699,7 +11699,7 @@ const all_stimuli = [
   {
       "unique_id": 211022,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11715,7 +11715,7 @@ const all_stimuli = [
   {
       "unique_id": 211031,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11731,7 +11731,7 @@ const all_stimuli = [
   {
       "unique_id": 211032,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11747,7 +11747,7 @@ const all_stimuli = [
   {
       "unique_id": 211041,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11763,7 +11763,7 @@ const all_stimuli = [
   {
       "unique_id": 211042,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11779,7 +11779,7 @@ const all_stimuli = [
   {
       "unique_id": 211051,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11795,7 +11795,7 @@ const all_stimuli = [
   {
       "unique_id": 211052,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11811,7 +11811,7 @@ const all_stimuli = [
   {
       "unique_id": 211061,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11827,7 +11827,7 @@ const all_stimuli = [
   {
       "unique_id": 211062,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11843,7 +11843,7 @@ const all_stimuli = [
   {
       "unique_id": 211071,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11859,7 +11859,7 @@ const all_stimuli = [
   {
       "unique_id": 211072,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11875,7 +11875,7 @@ const all_stimuli = [
   {
       "unique_id": 211081,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11891,7 +11891,7 @@ const all_stimuli = [
   {
       "unique_id": 211082,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11907,7 +11907,7 @@ const all_stimuli = [
   {
       "unique_id": 211091,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11923,7 +11923,7 @@ const all_stimuli = [
   {
       "unique_id": 211092,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11939,7 +11939,7 @@ const all_stimuli = [
   {
       "unique_id": 211101,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11955,7 +11955,7 @@ const all_stimuli = [
   {
       "unique_id": 211102,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -11971,7 +11971,7 @@ const all_stimuli = [
   {
       "unique_id": 211111,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -11987,7 +11987,7 @@ const all_stimuli = [
   {
       "unique_id": 211112,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -12003,7 +12003,7 @@ const all_stimuli = [
   {
       "unique_id": 211121,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -12019,7 +12019,7 @@ const all_stimuli = [
   {
       "unique_id": 211122,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -12035,7 +12035,7 @@ const all_stimuli = [
   {
       "unique_id": 211131,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -12051,7 +12051,7 @@ const all_stimuli = [
   {
       "unique_id": 211132,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -12067,7 +12067,7 @@ const all_stimuli = [
   {
       "unique_id": 211141,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "政客想知道",
@@ -12083,7 +12083,7 @@ const all_stimuli = [
   {
       "unique_id": 211142,
       "Lexicalization": 11,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "政客想知道",
@@ -12099,7 +12099,7 @@ const all_stimuli = [
   {
       "unique_id": 212011,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12115,7 +12115,7 @@ const all_stimuli = [
   {
       "unique_id": 212012,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12131,7 +12131,7 @@ const all_stimuli = [
   {
       "unique_id": 212021,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12147,7 +12147,7 @@ const all_stimuli = [
   {
       "unique_id": 212022,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12163,7 +12163,7 @@ const all_stimuli = [
   {
       "unique_id": 212031,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12179,7 +12179,7 @@ const all_stimuli = [
   {
       "unique_id": 212032,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12195,7 +12195,7 @@ const all_stimuli = [
   {
       "unique_id": 212041,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12211,7 +12211,7 @@ const all_stimuli = [
   {
       "unique_id": 212042,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12227,7 +12227,7 @@ const all_stimuli = [
   {
       "unique_id": 212051,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12243,7 +12243,7 @@ const all_stimuli = [
   {
       "unique_id": 212052,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12259,7 +12259,7 @@ const all_stimuli = [
   {
       "unique_id": 212061,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12275,7 +12275,7 @@ const all_stimuli = [
   {
       "unique_id": 212062,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12291,7 +12291,7 @@ const all_stimuli = [
   {
       "unique_id": 212071,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12307,7 +12307,7 @@ const all_stimuli = [
   {
       "unique_id": 212072,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12323,7 +12323,7 @@ const all_stimuli = [
   {
       "unique_id": 212081,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12339,7 +12339,7 @@ const all_stimuli = [
   {
       "unique_id": 212082,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12355,7 +12355,7 @@ const all_stimuli = [
   {
       "unique_id": 212091,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12371,7 +12371,7 @@ const all_stimuli = [
   {
       "unique_id": 212092,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12387,7 +12387,7 @@ const all_stimuli = [
   {
       "unique_id": 212101,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12403,7 +12403,7 @@ const all_stimuli = [
   {
       "unique_id": 212102,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12419,7 +12419,7 @@ const all_stimuli = [
   {
       "unique_id": 212111,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12435,7 +12435,7 @@ const all_stimuli = [
   {
       "unique_id": 212112,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12451,7 +12451,7 @@ const all_stimuli = [
   {
       "unique_id": 212121,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12467,7 +12467,7 @@ const all_stimuli = [
   {
       "unique_id": 212122,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12483,7 +12483,7 @@ const all_stimuli = [
   {
       "unique_id": 212131,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12499,7 +12499,7 @@ const all_stimuli = [
   {
       "unique_id": 212132,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12515,7 +12515,7 @@ const all_stimuli = [
   {
       "unique_id": 212141,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "包工头想知道",
@@ -12531,7 +12531,7 @@ const all_stimuli = [
   {
       "unique_id": 212142,
       "Lexicalization": 12,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "包工头想知道",
@@ -12547,7 +12547,7 @@ const all_stimuli = [
   {
       "unique_id": 213011,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12563,7 +12563,7 @@ const all_stimuli = [
   {
       "unique_id": 213012,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12579,7 +12579,7 @@ const all_stimuli = [
   {
       "unique_id": 213021,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12595,7 +12595,7 @@ const all_stimuli = [
   {
       "unique_id": 213022,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12611,7 +12611,7 @@ const all_stimuli = [
   {
       "unique_id": 213031,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12627,7 +12627,7 @@ const all_stimuli = [
   {
       "unique_id": 213032,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12643,7 +12643,7 @@ const all_stimuli = [
   {
       "unique_id": 213041,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12659,7 +12659,7 @@ const all_stimuli = [
   {
       "unique_id": 213042,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12675,7 +12675,7 @@ const all_stimuli = [
   {
       "unique_id": 213051,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12691,7 +12691,7 @@ const all_stimuli = [
   {
       "unique_id": 213052,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12707,7 +12707,7 @@ const all_stimuli = [
   {
       "unique_id": 213061,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12723,7 +12723,7 @@ const all_stimuli = [
   {
       "unique_id": 213062,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12739,7 +12739,7 @@ const all_stimuli = [
   {
       "unique_id": 213071,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12755,7 +12755,7 @@ const all_stimuli = [
   {
       "unique_id": 213072,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12771,7 +12771,7 @@ const all_stimuli = [
   {
       "unique_id": 213081,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12787,7 +12787,7 @@ const all_stimuli = [
   {
       "unique_id": 213082,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12803,7 +12803,7 @@ const all_stimuli = [
   {
       "unique_id": 213091,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12819,7 +12819,7 @@ const all_stimuli = [
   {
       "unique_id": 213092,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12835,7 +12835,7 @@ const all_stimuli = [
   {
       "unique_id": 213101,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12851,7 +12851,7 @@ const all_stimuli = [
   {
       "unique_id": 213102,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12867,7 +12867,7 @@ const all_stimuli = [
   {
       "unique_id": 213111,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12883,7 +12883,7 @@ const all_stimuli = [
   {
       "unique_id": 213112,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12899,7 +12899,7 @@ const all_stimuli = [
   {
       "unique_id": 213121,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12915,7 +12915,7 @@ const all_stimuli = [
   {
       "unique_id": 213122,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12931,7 +12931,7 @@ const all_stimuli = [
   {
       "unique_id": 213131,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12947,7 +12947,7 @@ const all_stimuli = [
   {
       "unique_id": 213132,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12963,7 +12963,7 @@ const all_stimuli = [
   {
       "unique_id": 213141,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "服务员想知道",
@@ -12979,7 +12979,7 @@ const all_stimuli = [
   {
       "unique_id": 213142,
       "Lexicalization": 13,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "服务员想知道",
@@ -12995,7 +12995,7 @@ const all_stimuli = [
   {
       "unique_id": 214011,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13011,7 +13011,7 @@ const all_stimuli = [
   {
       "unique_id": 214012,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13027,7 +13027,7 @@ const all_stimuli = [
   {
       "unique_id": 214021,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13043,7 +13043,7 @@ const all_stimuli = [
   {
       "unique_id": 214022,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13059,7 +13059,7 @@ const all_stimuli = [
   {
       "unique_id": 214031,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13075,7 +13075,7 @@ const all_stimuli = [
   {
       "unique_id": 214032,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13091,7 +13091,7 @@ const all_stimuli = [
   {
       "unique_id": 214041,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13107,7 +13107,7 @@ const all_stimuli = [
   {
       "unique_id": 214042,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13123,7 +13123,7 @@ const all_stimuli = [
   {
       "unique_id": 214051,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13139,7 +13139,7 @@ const all_stimuli = [
   {
       "unique_id": 214052,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13155,7 +13155,7 @@ const all_stimuli = [
   {
       "unique_id": 214061,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13171,7 +13171,7 @@ const all_stimuli = [
   {
       "unique_id": 214062,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13187,7 +13187,7 @@ const all_stimuli = [
   {
       "unique_id": 214071,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13203,7 +13203,7 @@ const all_stimuli = [
   {
       "unique_id": 214072,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13219,7 +13219,7 @@ const all_stimuli = [
   {
       "unique_id": 214081,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13235,7 +13235,7 @@ const all_stimuli = [
   {
       "unique_id": 214082,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13251,7 +13251,7 @@ const all_stimuli = [
   {
       "unique_id": 214091,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13267,7 +13267,7 @@ const all_stimuli = [
   {
       "unique_id": 214092,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13283,7 +13283,7 @@ const all_stimuli = [
   {
       "unique_id": 214101,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13299,7 +13299,7 @@ const all_stimuli = [
   {
       "unique_id": 214102,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13315,7 +13315,7 @@ const all_stimuli = [
   {
       "unique_id": 214111,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13331,7 +13331,7 @@ const all_stimuli = [
   {
       "unique_id": 214112,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13347,7 +13347,7 @@ const all_stimuli = [
   {
       "unique_id": 214121,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13363,7 +13363,7 @@ const all_stimuli = [
   {
       "unique_id": 214122,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13379,7 +13379,7 @@ const all_stimuli = [
   {
       "unique_id": 214131,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13395,7 +13395,7 @@ const all_stimuli = [
   {
       "unique_id": 214132,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13411,7 +13411,7 @@ const all_stimuli = [
   {
       "unique_id": 214141,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "英语老师想知道",
@@ -13427,7 +13427,7 @@ const all_stimuli = [
   {
       "unique_id": 214142,
       "Lexicalization": 14,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "英语老师想知道",
@@ -13443,7 +13443,7 @@ const all_stimuli = [
   {
       "unique_id": 215011,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13459,7 +13459,7 @@ const all_stimuli = [
   {
       "unique_id": 215012,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13475,7 +13475,7 @@ const all_stimuli = [
   {
       "unique_id": 215021,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13491,7 +13491,7 @@ const all_stimuli = [
   {
       "unique_id": 215022,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13507,7 +13507,7 @@ const all_stimuli = [
   {
       "unique_id": 215031,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13523,7 +13523,7 @@ const all_stimuli = [
   {
       "unique_id": 215032,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13539,7 +13539,7 @@ const all_stimuli = [
   {
       "unique_id": 215041,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13555,7 +13555,7 @@ const all_stimuli = [
   {
       "unique_id": 215042,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13571,7 +13571,7 @@ const all_stimuli = [
   {
       "unique_id": 215051,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13587,7 +13587,7 @@ const all_stimuli = [
   {
       "unique_id": 215052,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13603,7 +13603,7 @@ const all_stimuli = [
   {
       "unique_id": 215061,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13619,7 +13619,7 @@ const all_stimuli = [
   {
       "unique_id": 215062,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13635,7 +13635,7 @@ const all_stimuli = [
   {
       "unique_id": 215071,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13651,7 +13651,7 @@ const all_stimuli = [
   {
       "unique_id": 215072,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13667,7 +13667,7 @@ const all_stimuli = [
   {
       "unique_id": 215081,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13683,7 +13683,7 @@ const all_stimuli = [
   {
       "unique_id": 215082,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13699,7 +13699,7 @@ const all_stimuli = [
   {
       "unique_id": 215091,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13715,7 +13715,7 @@ const all_stimuli = [
   {
       "unique_id": 215092,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13731,7 +13731,7 @@ const all_stimuli = [
   {
       "unique_id": 215101,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13747,7 +13747,7 @@ const all_stimuli = [
   {
       "unique_id": 215102,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13763,7 +13763,7 @@ const all_stimuli = [
   {
       "unique_id": 215111,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13779,7 +13779,7 @@ const all_stimuli = [
   {
       "unique_id": 215112,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13795,7 +13795,7 @@ const all_stimuli = [
   {
       "unique_id": 215121,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13811,7 +13811,7 @@ const all_stimuli = [
   {
       "unique_id": 215122,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13827,7 +13827,7 @@ const all_stimuli = [
   {
       "unique_id": 215131,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13843,7 +13843,7 @@ const all_stimuli = [
   {
       "unique_id": 215132,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13859,7 +13859,7 @@ const all_stimuli = [
   {
       "unique_id": 215141,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "主持人想知道",
@@ -13875,7 +13875,7 @@ const all_stimuli = [
   {
       "unique_id": 215142,
       "Lexicalization": 15,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "主持人想知道",
@@ -13891,7 +13891,7 @@ const all_stimuli = [
   {
       "unique_id": 216011,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -13907,7 +13907,7 @@ const all_stimuli = [
   {
       "unique_id": 216012,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -13923,7 +13923,7 @@ const all_stimuli = [
   {
       "unique_id": 216021,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -13939,7 +13939,7 @@ const all_stimuli = [
   {
       "unique_id": 216022,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "觉得",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -13955,7 +13955,7 @@ const all_stimuli = [
   {
       "unique_id": 216031,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -13971,7 +13971,7 @@ const all_stimuli = [
   {
       "unique_id": 216032,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "希望",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -13987,7 +13987,7 @@ const all_stimuli = [
   {
       "unique_id": 216041,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14003,7 +14003,7 @@ const all_stimuli = [
   {
       "unique_id": 216042,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "说明",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14019,7 +14019,7 @@ const all_stimuli = [
   {
       "unique_id": 216051,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14035,7 +14035,7 @@ const all_stimuli = [
   {
       "unique_id": 216052,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "想",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14051,7 +14051,7 @@ const all_stimuli = [
   {
       "unique_id": 216061,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14067,7 +14067,7 @@ const all_stimuli = [
   {
       "unique_id": 216062,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "怕",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14083,7 +14083,7 @@ const all_stimuli = [
   {
       "unique_id": 216071,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14099,7 +14099,7 @@ const all_stimuli = [
   {
       "unique_id": 216072,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "喜欢",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14115,7 +14115,7 @@ const all_stimuli = [
   {
       "unique_id": 216081,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14131,7 +14131,7 @@ const all_stimuli = [
   {
       "unique_id": 216082,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "记得",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14147,7 +14147,7 @@ const all_stimuli = [
   {
       "unique_id": 216091,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14163,7 +14163,7 @@ const all_stimuli = [
   {
       "unique_id": 216092,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "猜",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14179,7 +14179,7 @@ const all_stimuli = [
   {
       "unique_id": 216101,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14195,7 +14195,7 @@ const all_stimuli = [
   {
       "unique_id": 216102,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "假装",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14211,7 +14211,7 @@ const all_stimuli = [
   {
       "unique_id": 216111,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14227,7 +14227,7 @@ const all_stimuli = [
   {
       "unique_id": 216112,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "害怕",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14243,7 +14243,7 @@ const all_stimuli = [
   {
       "unique_id": 216121,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14259,7 +14259,7 @@ const all_stimuli = [
   {
       "unique_id": 216122,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "感觉",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14275,7 +14275,7 @@ const all_stimuli = [
   {
       "unique_id": 216131,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14291,7 +14291,7 @@ const all_stimuli = [
   {
       "unique_id": 216132,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "认为",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14307,7 +14307,7 @@ const all_stimuli = [
   {
       "unique_id": 216141,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "short",
       "Matrix": "大学生想知道",
@@ -14323,7 +14323,7 @@ const all_stimuli = [
   {
       "unique_id": 216142,
       "Lexicalization": 16,
-      "wh-type": "arg",
+      "wh_type": "arg",
       "Verb": "写",
       "Length": "long",
       "Matrix": "大学生想知道",
@@ -14339,7 +14339,7 @@ const all_stimuli = [
   {
       "unique_id": 900001,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14355,7 +14355,7 @@ const all_stimuli = [
   {
       "unique_id": 900002,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14371,7 +14371,7 @@ const all_stimuli = [
   {
       "unique_id": 900003,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14387,7 +14387,7 @@ const all_stimuli = [
   {
       "unique_id": 900004,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14403,7 +14403,7 @@ const all_stimuli = [
   {
       "unique_id": 900005,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14419,7 +14419,7 @@ const all_stimuli = [
   {
       "unique_id": 900006,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14435,7 +14435,7 @@ const all_stimuli = [
   {
       "unique_id": 900007,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14451,7 +14451,7 @@ const all_stimuli = [
   {
       "unique_id": 900008,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14467,7 +14467,7 @@ const all_stimuli = [
   {
       "unique_id": 900009,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14483,7 +14483,7 @@ const all_stimuli = [
   {
       "unique_id": 900010,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14499,7 +14499,7 @@ const all_stimuli = [
   {
       "unique_id": 900011,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14515,7 +14515,7 @@ const all_stimuli = [
   {
       "unique_id": 900012,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14531,7 +14531,7 @@ const all_stimuli = [
   {
       "unique_id": 900013,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14547,7 +14547,7 @@ const all_stimuli = [
   {
       "unique_id": 900014,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14563,7 +14563,7 @@ const all_stimuli = [
   {
       "unique_id": 900015,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",
@@ -14579,7 +14579,7 @@ const all_stimuli = [
   {
       "unique_id": 900016,
       "Lexicalization": "",
-      "wh-type": "",
+      "wh_type": "",
       "Verb": "",
       "Length": "",
       "Matrix": "",

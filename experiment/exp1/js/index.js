@@ -329,7 +329,7 @@ function make_slides(f) {
         "response" : exp.sliderPost,
         "item": this.stim.lexicalization,
         "sentence": this.stim.sentence,
-        "wh-type": this.stim.wh-type,
+        "wh-type": this.stim.wh_type,
         "length": this.stim.Length,
         "verb": this.stim.Verb,
         "trial_sequence_total": order,
