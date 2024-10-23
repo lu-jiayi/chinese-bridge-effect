@@ -51,29 +51,31 @@ var unknown_verb_list = shuffle([2,3,4,5,6,7,8,10,11,12,14]).slice(0,6);
 var presentation_list = [];
 presentation_list.push(bridge_verb_list[0]*10 + 100002);
 presentation_list.push(bridge_verb_list[0]*10 + 200001);
+presentation_list.push(bridge_verb_list[0]*10 + 100001);
+presentation_list.push(bridge_verb_list[0]*10 + 200002);
 presentation_list.push(bridge_verb_list[1]*10 + 100001);
 presentation_list.push(bridge_verb_list[1]*10 + 200002);
+presentation_list.push(bridge_verb_list[1]*10 + 100002);
+presentation_list.push(bridge_verb_list[1]*10 + 200001);
+console.log(presentation_list);
 ///add  unknown verb items to the presentation list (lacking lexicalization information)
-for (var i = 0; i < 3; i++){
+for (var i = 0; i < 6; i++){
   presentation_list.push(unknown_verb_list[i]*10 + 100002);
   presentation_list.push(unknown_verb_list[i]*10 + 200001);
-
-};
-for (var i = 3; i < 6; i++){
   presentation_list.push(unknown_verb_list[i]*10 + 200002);
   presentation_list.push(unknown_verb_list[i]*10 + 100001);
 };
-
-/// add lexicalization information to the presentation list: 1-16 each appears once.
-item_number = shuffle([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
-for (var i = 0; i < 16; i++){
+console.log(presentation_list);
+/// add lexicalization information to the presentation list: 1-32 each appears once.
+item_number = shuffle([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]);
+for (var i = 0; i < 32; i++){
   presentation_list[i] = presentation_list[i] + (item_number[i] * 1000);
 };
 
-console.log(presentation_list);
+
 
 /// add fillers
-for (var i = 1; i < 17; i++){
+for (var i = 1; i < 33; i++){
   presentation_list.push(900000+i);
 };
 
@@ -84,7 +86,7 @@ console.log(presentation_list);
 function isValid(arr) {
   let onesCount = 0;
   for (let i = 0; i < arr.length; i++) {
-      if (String(arr[i]).startsWith('1')) {
+      if ((String(arr[i]).startsWith('1')) || (String(arr[i]).startsWith('2'))) {
           onesCount++;
           if (onesCount > 2) {
               return false;  // More than 2 numbers starting with 1 in a row
