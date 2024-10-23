@@ -28958,7 +28958,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "陈校长遇到了扛着箱子的维修员。"
+        "sentence": "校长遇到了扛着箱子的维修员。"
     },
     {
         "unique_id": 900019,
@@ -28990,7 +28990,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "沈教授认识修了桌子的工人。"
+        "sentence": "教授认识修了桌子的工人。"
     },
     {
         "unique_id": 900021,
@@ -29006,7 +29006,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "蒋部长没见过吃了包子的大学生。"
+        "sentence": "部长没见过吃了包子的大学生。"
     },
     {
         "unique_id": 900022,
@@ -29022,7 +29022,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "韩村长不想见买了卡车的村民。"
+        "sentence": "村长不想见买了卡车的村民。"
     },
     {
         "unique_id": 900023,
@@ -29038,7 +29038,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "杨顾问没注意到端着盘子的阿姨。"
+        "sentence": "顾问没注意到端着盘子的阿姨。"
     },
     {
         "unique_id": 900024,
@@ -29054,7 +29054,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "王师傅不想见到吃了汉堡的小女孩。"
+        "sentence": "装修师傅不想见到吃了汉堡的小女孩。"
     },
     {
         "unique_id": 900025,
@@ -29070,7 +29070,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "他向父母倾诉了自己的烦恼。"
+        "sentence": "部门经理的好朋友向父母倾诉了自己的烦恼。"
     },
     {
         "unique_id": 900026,
@@ -29086,7 +29086,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "她向老师请教了一个问题。"
+        "sentence": "运动员的姐姐向老师请教了一个问题。"
     },
     {
         "unique_id": 900027,
@@ -29102,7 +29102,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "医生鼓励病人多锻炼身体。"
+        "sentence": "外科医生鼓励病人多锻炼身体。"
     },
     {
         "unique_id": 900028,
@@ -29118,7 +29118,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "他邀请我们参加聚会。"
+        "sentence": "广告商邀请客户参加在西餐厅举办的宴会。"
     },
     {
         "unique_id": 900029,
@@ -29134,7 +29134,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "我提醒他要注意安全。"
+        "sentence": "交警在马路边提醒行人要注意安全。"
     },
     {
         "unique_id": 900030,
@@ -29150,7 +29150,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "她鼓励朋友追求自己的梦想。"
+        "sentence": "教导主任鼓励学生们追求自己的梦想。"
     },
     {
         "unique_id": 900031,
@@ -29166,7 +29166,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "他指导学生们如何解决问题。"
+        "sentence": "数学老师指导中学生们如何解决问题。"
     },
     {
         "unique_id": 900032,
@@ -29182,6 +29182,6 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": ""
+        "sentence": "保姆想知道老爷爷午饭到底吃了些什么。"
     }
 ]
