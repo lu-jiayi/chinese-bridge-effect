@@ -28814,7 +28814,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "他自己的烦恼向倾诉朋友。"
+        "sentence": "领导自己的烦恼向倾诉朋友。"
     },
     {
         "unique_id": 900010,
@@ -28830,7 +28830,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "我自己的问题向提出老师。"
+        "sentence": "学生自己的问题向提出老师。"
     },
     {
         "unique_id": 900011,
@@ -28846,7 +28846,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "她自己的缺点向指出经理。"
+        "sentence": "助理自己的缺点向指出经理。"
     },
     {
         "unique_id": 900012,
@@ -28862,7 +28862,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "我们自己的优势向隐瞒对手。"
+        "sentence": "队员们自己的优势向隐瞒对手。"
     },
     {
         "unique_id": 900013,
