@@ -329,7 +329,7 @@ function make_slides(f) {
       exp.data_trials.push({
         // item-specific fields
         "response" : exp.sliderPost,
-        "item": this.stim.lexicalization,
+        "item": this.stim.Lexicalization,
         "sentence": this.stim.sentence,
         "wh_type": this.stim.wh_type,
         "length": this.stim.Length,
