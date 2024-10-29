@@ -355,6 +355,7 @@ function make_slides(f) {
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
+        region : $("#region").val(),
         comments : $("#comments").val(),
         fairprice: $("#fairprice").val()
       };
