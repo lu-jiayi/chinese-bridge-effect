@@ -430,7 +430,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "打了",
         "Emb2_object": "快递员",
-        "sentence": "老师想知道学生为什么写修理工打了快递员。"
+        "sentence": "老师想知道学生为什么写下来修理工打了快递员。"
     },
     {
         "unique_id": 101142,
@@ -446,7 +446,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "打了",
         "Emb2_object": "快递员",
-        "sentence": "老师想知道学生写修理工为什么打了快递员。"
+        "sentence": "老师想知道学生写下来修理工为什么打了快递员。"
     },
     {
         "unique_id": 102011,
@@ -878,7 +878,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "审问了",
         "Emb2_object": "学生",
-        "sentence": "法官想知道律师为什么写警察审问了学生。"
+        "sentence": "法官想知道律师为什么写下来警察审问了学生。"
     },
     {
         "unique_id": 102142,
@@ -894,7 +894,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "审问了",
         "Emb2_object": "学生",
-        "sentence": "法官想知道律师写警察为什么审问了学生。"
+        "sentence": "法官想知道律师写下来警察为什么审问了学生。"
     },
     {
         "unique_id": 103011,
@@ -1326,7 +1326,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "接待了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道厨师为什么写服务员接待了乞丐。"
+        "sentence": "经理想知道厨师为什么写下来服务员接待了乞丐。"
     },
     {
         "unique_id": 103142,
@@ -1342,7 +1342,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "接待了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道厨师写服务员为什么接待了乞丐。"
+        "sentence": "经理想知道厨师写下来服务员为什么接待了乞丐。"
     },
     {
         "unique_id": 104011,
@@ -1774,7 +1774,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "批评了",
         "Emb2_object": "运动员",
-        "sentence": "教授想知道工程师为什么写秘书批评了运动员。"
+        "sentence": "教授想知道工程师为什么写下来秘书批评了运动员。"
     },
     {
         "unique_id": 104142,
@@ -1790,7 +1790,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "批评了",
         "Emb2_object": "运动员",
-        "sentence": "教授想知道工程师写秘书为什么批评了运动员。"
+        "sentence": "教授想知道工程师写下来秘书为什么批评了运动员。"
     },
     {
         "unique_id": 105011,
@@ -2222,7 +2222,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "联系了",
         "Emb2_object": "毒枭",
-        "sentence": "市长想知道议员为什么写艺术家联系了毒枭。"
+        "sentence": "市长想知道议员为什么写下来艺术家联系了毒枭。"
     },
     {
         "unique_id": 105142,
@@ -2238,7 +2238,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "联系了",
         "Emb2_object": "毒枭",
-        "sentence": "市长想知道议员写艺术家为什么联系了毒枭。"
+        "sentence": "市长想知道议员写下来艺术家为什么联系了毒枭。"
     },
     {
         "unique_id": 106011,
@@ -2670,7 +2670,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "开除了",
         "Emb2_object": "保镖",
-        "sentence": "检察官想知道教练员为什么写音乐家开除了保镖。"
+        "sentence": "检察官想知道教练员为什么写下来音乐家开除了保镖。"
     },
     {
         "unique_id": 106142,
@@ -2686,7 +2686,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "开除了",
         "Emb2_object": "保镖",
-        "sentence": "检察官想知道教练员写音乐家为什么开除了保镖。"
+        "sentence": "检察官想知道教练员写下来音乐家为什么开除了保镖。"
     },
     {
         "unique_id": 107011,
@@ -3118,7 +3118,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "无视了",
         "Emb2_object": "领导",
-        "sentence": "村长想知道农民为什么写电工无视了领导。"
+        "sentence": "村长想知道农民为什么写下来电工无视了领导。"
     },
     {
         "unique_id": 107142,
@@ -3134,7 +3134,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "无视了",
         "Emb2_object": "领导",
-        "sentence": "村长想知道农民写电工为什么无视了领导。"
+        "sentence": "村长想知道农民写下来电工为什么无视了领导。"
     },
     {
         "unique_id": 108011,
@@ -3566,7 +3566,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "羞辱了",
         "Emb2_object": "卡车司机",
-        "sentence": "侦探想知道售货员为什么写飞行员羞辱了卡车司机。"
+        "sentence": "侦探想知道售货员为什么写下来飞行员羞辱了卡车司机。"
     },
     {
         "unique_id": 108142,
@@ -3582,7 +3582,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "羞辱了",
         "Emb2_object": "卡车司机",
-        "sentence": "侦探想知道售货员写飞行员为什么羞辱了卡车司机。"
+        "sentence": "侦探想知道售货员写下来飞行员为什么羞辱了卡车司机。"
     },
     {
         "unique_id": 109011,
@@ -4014,7 +4014,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "跟踪了",
         "Emb2_object": "总统",
-        "sentence": "将军想知道间谍为什么写士兵跟踪了总统。"
+        "sentence": "将军想知道间谍为什么写下来士兵跟踪了总统。"
     },
     {
         "unique_id": 109142,
@@ -4030,7 +4030,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "跟踪了",
         "Emb2_object": "总统",
-        "sentence": "将军想知道间谍写士兵为什么跟踪了总统。"
+        "sentence": "将军想知道间谍写下来士兵为什么跟踪了总统。"
     },
     {
         "unique_id": 110011,
@@ -4462,7 +4462,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "袭击了",
         "Emb2_object": "商贩",
-        "sentence": "导游想知道外国人为什么写保安袭击了商贩。"
+        "sentence": "导游想知道外国人为什么写下来保安袭击了商贩。"
     },
     {
         "unique_id": 110142,
@@ -4478,7 +4478,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "袭击了",
         "Emb2_object": "商贩",
-        "sentence": "导游想知道外国人写保安为什么袭击了商贩。"
+        "sentence": "导游想知道外国人写下来保安为什么袭击了商贩。"
     },
     {
         "unique_id": 111011,
@@ -4910,7 +4910,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "推倒了",
         "Emb2_object": "男孩",
-        "sentence": "政客想知道医生为什么写护士推倒了男孩。"
+        "sentence": "政客想知道医生为什么写下来护士推倒了男孩。"
     },
     {
         "unique_id": 111142,
@@ -4926,7 +4926,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "推倒了",
         "Emb2_object": "男孩",
-        "sentence": "政客想知道医生写护士为什么推倒了男孩。"
+        "sentence": "政客想知道医生写下来护士为什么推倒了男孩。"
     },
     {
         "unique_id": 112011,
@@ -5358,7 +5358,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "打伤了",
         "Emb2_object": "算命先生",
-        "sentence": "包工头想知道和尚为什么写播音员打伤了算命先生。"
+        "sentence": "包工头想知道和尚为什么写下来播音员打伤了算命先生。"
     },
     {
         "unique_id": 112142,
@@ -5374,7 +5374,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "打伤了",
         "Emb2_object": "算命先生",
-        "sentence": "包工头想知道和尚写播音员为什么打伤了算命先生。"
+        "sentence": "包工头想知道和尚写下来播音员为什么打伤了算命先生。"
     },
     {
         "unique_id": 113011,
@@ -5806,7 +5806,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "欺骗了",
         "Emb2_object": "建筑工人",
-        "sentence": "服务员想知道售票员为什么写演说家欺骗了建筑工人。"
+        "sentence": "服务员想知道售票员为什么写下来演说家欺骗了建筑工人。"
     },
     {
         "unique_id": 113142,
@@ -5822,7 +5822,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "欺骗了",
         "Emb2_object": "建筑工人",
-        "sentence": "服务员想知道售票员写演说家为什么欺骗了建筑工人。"
+        "sentence": "服务员想知道售票员写下来演说家为什么欺骗了建筑工人。"
     },
     {
         "unique_id": 114011,
@@ -6254,7 +6254,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "举报了",
         "Emb2_object": "店员",
-        "sentence": "英语老师想知道工程师为什么写中学生举报了店员。"
+        "sentence": "英语老师想知道工程师为什么写下来中学生举报了店员。"
     },
     {
         "unique_id": 114142,
@@ -6270,7 +6270,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "举报了",
         "Emb2_object": "店员",
-        "sentence": "英语老师想知道工程师写中学生为什么举报了店员。"
+        "sentence": "英语老师想知道工程师写下来中学生为什么举报了店员。"
     },
     {
         "unique_id": 115011,
@@ -6702,7 +6702,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "批评了",
         "Emb2_object": "总统候选人",
-        "sentence": "主持人想知道学者为什么写政府官员批评了总统候选人。"
+        "sentence": "主持人想知道学者为什么写下来政府官员批评了总统候选人。"
     },
     {
         "unique_id": 115142,
@@ -6718,7 +6718,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "批评了",
         "Emb2_object": "总统候选人",
-        "sentence": "主持人想知道学者写政府官员为什么批评了总统候选人。"
+        "sentence": "主持人想知道学者写下来政府官员为什么批评了总统候选人。"
     },
     {
         "unique_id": 116011,
@@ -7150,7 +7150,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "夸赞了",
         "Emb2_object": "歌手",
-        "sentence": "大学生想知道记者为什么写音乐老师夸赞了歌手。"
+        "sentence": "大学生想知道记者为什么写下来音乐老师夸赞了歌手。"
     },
     {
         "unique_id": 116142,
@@ -7166,7 +7166,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "夸赞了",
         "Emb2_object": "歌手",
-        "sentence": "大学生想知道记者写音乐老师为什么夸赞了歌手。"
+        "sentence": "大学生想知道记者写下来音乐老师为什么夸赞了歌手。"
     },
     {
         "unique_id": 201011,
@@ -7598,7 +7598,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "打了",
         "Emb2_object": "快递员",
-        "sentence": "老师想知道谁写修理工打了快递员。"
+        "sentence": "老师想知道谁写下来修理工打了快递员。"
     },
     {
         "unique_id": 201142,
@@ -7614,7 +7614,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "打了",
         "Emb2_object": "快递员",
-        "sentence": "老师想知道学生写修理工打了谁。"
+        "sentence": "老师想知道学生写下来修理工打了谁。"
     },
     {
         "unique_id": 202011,
@@ -8046,7 +8046,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "审问了",
         "Emb2_object": "学生",
-        "sentence": "法官想知道谁写警察审问了学生。"
+        "sentence": "法官想知道谁写下来警察审问了学生。"
     },
     {
         "unique_id": 202142,
@@ -8062,7 +8062,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "审问了",
         "Emb2_object": "学生",
-        "sentence": "法官想知道律师写警察审问了谁。"
+        "sentence": "法官想知道律师写下来警察审问了谁。"
     },
     {
         "unique_id": 203011,
@@ -8494,7 +8494,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "接待了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道谁写服务员接待了乞丐。"
+        "sentence": "经理想知道谁写下来服务员接待了乞丐。"
     },
     {
         "unique_id": 203142,
@@ -8510,7 +8510,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "接待了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道厨师写服务员接待了谁。"
+        "sentence": "经理想知道厨师写下来服务员接待了谁。"
     },
     {
         "unique_id": 204011,
@@ -8942,7 +8942,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "批评了",
         "Emb2_object": "运动员",
-        "sentence": "教授想知道谁写秘书批评了运动员。"
+        "sentence": "教授想知道谁写下来秘书批评了运动员。"
     },
     {
         "unique_id": 204142,
@@ -8958,7 +8958,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "批评了",
         "Emb2_object": "运动员",
-        "sentence": "教授想知道工程师写秘书批评了谁。"
+        "sentence": "教授想知道工程师写下来秘书批评了谁。"
     },
     {
         "unique_id": 205011,
@@ -9390,7 +9390,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "联系了",
         "Emb2_object": "毒枭",
-        "sentence": "市长想知道谁写艺术家联系了毒枭。"
+        "sentence": "市长想知道谁写下来艺术家联系了毒枭。"
     },
     {
         "unique_id": 205142,
@@ -9406,7 +9406,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "联系了",
         "Emb2_object": "毒枭",
-        "sentence": "市长想知道议员写艺术家联系了谁。"
+        "sentence": "市长想知道议员写下来艺术家联系了谁。"
     },
     {
         "unique_id": 206011,
@@ -9838,7 +9838,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "开除了",
         "Emb2_object": "保镖",
-        "sentence": "检察官想知道谁写音乐家开除了保镖。"
+        "sentence": "检察官想知道谁写下来音乐家开除了保镖。"
     },
     {
         "unique_id": 206142,
@@ -9854,7 +9854,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "开除了",
         "Emb2_object": "保镖",
-        "sentence": "检察官想知道教练员写音乐家开除了谁。"
+        "sentence": "检察官想知道教练员写下来音乐家开除了谁。"
     },
     {
         "unique_id": 207011,
@@ -10286,7 +10286,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "无视了",
         "Emb2_object": "领导",
-        "sentence": "村长想知道谁写电工无视了领导。"
+        "sentence": "村长想知道谁写下来电工无视了领导。"
     },
     {
         "unique_id": 207142,
@@ -10302,7 +10302,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "无视了",
         "Emb2_object": "领导",
-        "sentence": "村长想知道农民写电工无视了谁。"
+        "sentence": "村长想知道农民写下来电工无视了谁。"
     },
     {
         "unique_id": 208011,
@@ -10734,7 +10734,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "羞辱了",
         "Emb2_object": "卡车司机",
-        "sentence": "侦探想知道谁写飞行员羞辱了卡车司机。"
+        "sentence": "侦探想知道谁写下来飞行员羞辱了卡车司机。"
     },
     {
         "unique_id": 208142,
@@ -10750,7 +10750,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "羞辱了",
         "Emb2_object": "卡车司机",
-        "sentence": "侦探想知道售货员写飞行员羞辱了谁。"
+        "sentence": "侦探想知道售货员写下来飞行员羞辱了谁。"
     },
     {
         "unique_id": 209011,
@@ -11182,7 +11182,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "跟踪了",
         "Emb2_object": "总统",
-        "sentence": "将军想知道谁写士兵跟踪了总统。"
+        "sentence": "将军想知道谁写下来士兵跟踪了总统。"
     },
     {
         "unique_id": 209142,
@@ -11198,7 +11198,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "跟踪了",
         "Emb2_object": "总统",
-        "sentence": "将军想知道间谍写士兵跟踪了谁。"
+        "sentence": "将军想知道间谍写下来士兵跟踪了谁。"
     },
     {
         "unique_id": 210011,
@@ -11630,7 +11630,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "袭击了",
         "Emb2_object": "商贩",
-        "sentence": "导游想知道谁写保安袭击了商贩。"
+        "sentence": "导游想知道谁写下来保安袭击了商贩。"
     },
     {
         "unique_id": 210142,
@@ -11646,7 +11646,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "袭击了",
         "Emb2_object": "商贩",
-        "sentence": "导游想知道外国人写保安袭击了谁。"
+        "sentence": "导游想知道外国人写下来保安袭击了谁。"
     },
     {
         "unique_id": 211011,
@@ -12078,7 +12078,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "推倒了",
         "Emb2_object": "男孩",
-        "sentence": "政客想知道谁写护士推倒了男孩。"
+        "sentence": "政客想知道谁写下来护士推倒了男孩。"
     },
     {
         "unique_id": 211142,
@@ -12094,7 +12094,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "推倒了",
         "Emb2_object": "男孩",
-        "sentence": "政客想知道医生写护士推倒了谁。"
+        "sentence": "政客想知道医生写下来护士推倒了谁。"
     },
     {
         "unique_id": 212011,
@@ -12526,7 +12526,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "打伤了",
         "Emb2_object": "算命先生",
-        "sentence": "包工头想知道谁写播音员打伤了算命先生。"
+        "sentence": "包工头想知道谁写下来播音员打伤了算命先生。"
     },
     {
         "unique_id": 212142,
@@ -12542,7 +12542,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "打伤了",
         "Emb2_object": "算命先生",
-        "sentence": "包工头想知道和尚写播音员打伤了谁。"
+        "sentence": "包工头想知道和尚写下来播音员打伤了谁。"
     },
     {
         "unique_id": 213011,
@@ -12974,7 +12974,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "欺骗了",
         "Emb2_object": "建筑工人",
-        "sentence": "服务员想知道谁写演说家欺骗了建筑工人。"
+        "sentence": "服务员想知道谁写下来演说家欺骗了建筑工人。"
     },
     {
         "unique_id": 213142,
@@ -12990,7 +12990,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "欺骗了",
         "Emb2_object": "建筑工人",
-        "sentence": "服务员想知道售票员写演说家欺骗了谁。"
+        "sentence": "服务员想知道售票员写下来演说家欺骗了谁。"
     },
     {
         "unique_id": 214011,
@@ -13422,7 +13422,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "举报了",
         "Emb2_object": "店员",
-        "sentence": "英语老师想知道谁写中学生举报了店员。"
+        "sentence": "英语老师想知道谁写下来中学生举报了店员。"
     },
     {
         "unique_id": 214142,
@@ -13438,7 +13438,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "举报了",
         "Emb2_object": "店员",
-        "sentence": "英语老师想知道工程师写中学生举报了谁。"
+        "sentence": "英语老师想知道工程师写下来中学生举报了谁。"
     },
     {
         "unique_id": 215011,
@@ -13870,7 +13870,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "批评了",
         "Emb2_object": "总统候选人",
-        "sentence": "主持人想知道谁写政府官员批评了总统候选人。"
+        "sentence": "主持人想知道谁写下来政府官员批评了总统候选人。"
     },
     {
         "unique_id": 215142,
@@ -13886,7 +13886,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "批评了",
         "Emb2_object": "总统候选人",
-        "sentence": "主持人想知道学者写政府官员批评了谁。"
+        "sentence": "主持人想知道学者写下来政府官员批评了谁。"
     },
     {
         "unique_id": 216011,
@@ -14318,7 +14318,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "夸赞了",
         "Emb2_object": "歌手",
-        "sentence": "大学生想知道谁写音乐老师夸赞了歌手。"
+        "sentence": "大学生想知道谁写下来音乐老师夸赞了歌手。"
     },
     {
         "unique_id": 216142,
@@ -14334,7 +14334,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "夸赞了",
         "Emb2_object": "歌手",
-        "sentence": "大学生想知道记者写音乐老师夸赞了谁。"
+        "sentence": "大学生想知道记者写下来音乐老师夸赞了谁。"
     },
     {
         "unique_id": 117011,
@@ -14766,7 +14766,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "邀请了",
         "Emb2_object": "神父",
-        "sentence": "会计想知道演员为什么写编辑邀请了神父。"
+        "sentence": "会计想知道演员为什么写下来编辑邀请了神父。"
     },
     {
         "unique_id": 117142,
@@ -14782,7 +14782,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "邀请了",
         "Emb2_object": "神父",
-        "sentence": "会计想知道演员写编辑为什么邀请了神父。"
+        "sentence": "会计想知道演员写下来编辑为什么邀请了神父。"
     },
     {
         "unique_id": 118011,
@@ -15214,7 +15214,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "责备了",
         "Emb2_object": "经济学家",
-        "sentence": "船长想知道建筑师为什么写飞行员责备了经济学家。"
+        "sentence": "船长想知道建筑师为什么写下来飞行员责备了经济学家。"
     },
     {
         "unique_id": 118142,
@@ -15230,7 +15230,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "责备了",
         "Emb2_object": "经济学家",
-        "sentence": "船长想知道建筑师写飞行员为什么责备了经济学家。"
+        "sentence": "船长想知道建筑师写下来飞行员为什么责备了经济学家。"
     },
     {
         "unique_id": 119011,
@@ -15662,7 +15662,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "夸奖了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道道士为什么写和尚夸奖了乞丐。"
+        "sentence": "经理想知道道士为什么写下来和尚夸奖了乞丐。"
     },
     {
         "unique_id": 119142,
@@ -15678,7 +15678,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "夸奖了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道道士写和尚为什么夸奖了乞丐。"
+        "sentence": "经理想知道道士写下来和尚为什么夸奖了乞丐。"
     },
     {
         "unique_id": 120011,
@@ -16110,7 +16110,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "指责了",
         "Emb2_object": "心理医生",
-        "sentence": "售货员想知道作曲家为什么写摄影师指责了心理医生。"
+        "sentence": "售货员想知道作曲家为什么写下来摄影师指责了心理医生。"
     },
     {
         "unique_id": 120142,
@@ -16126,7 +16126,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "指责了",
         "Emb2_object": "心理医生",
-        "sentence": "售货员想知道作曲家写摄影师为什么指责了心理医生。"
+        "sentence": "售货员想知道作曲家写下来摄影师为什么指责了心理医生。"
     },
     {
         "unique_id": 121011,
@@ -16558,7 +16558,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "采访了",
         "Emb2_object": "税务员",
-        "sentence": "省长想知道药剂师为什么写小报记者采访了税务员。"
+        "sentence": "省长想知道药剂师为什么写下来小报记者采访了税务员。"
     },
     {
         "unique_id": 121142,
@@ -16574,7 +16574,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "采访了",
         "Emb2_object": "税务员",
-        "sentence": "省长想知道药剂师写小报记者为什么采访了税务员。"
+        "sentence": "省长想知道药剂师写下来小报记者为什么采访了税务员。"
     },
     {
         "unique_id": 122011,
@@ -17006,7 +17006,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "嘲讽了",
         "Emb2_object": "哲学家",
-        "sentence": "顾问想知道外交官为什么写生物学家嘲讽了哲学家。"
+        "sentence": "顾问想知道外交官为什么写下来生物学家嘲讽了哲学家。"
     },
     {
         "unique_id": 122142,
@@ -17022,7 +17022,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "嘲讽了",
         "Emb2_object": "哲学家",
-        "sentence": "顾问想知道外交官写生物学家为什么嘲讽了哲学家。"
+        "sentence": "顾问想知道外交官写下来生物学家为什么嘲讽了哲学家。"
     },
     {
         "unique_id": 123011,
@@ -17454,7 +17454,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "训斥了",
         "Emb2_object": "清洁工",
-        "sentence": "园丁想知道水管工为什么写焊工训斥了清洁工。"
+        "sentence": "园丁想知道水管工为什么写下来焊工训斥了清洁工。"
     },
     {
         "unique_id": 123142,
@@ -17470,7 +17470,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "训斥了",
         "Emb2_object": "清洁工",
-        "sentence": "园丁想知道水管工写焊工为什么训斥了清洁工。"
+        "sentence": "园丁想知道水管工写下来焊工为什么训斥了清洁工。"
     },
     {
         "unique_id": 124011,
@@ -17902,7 +17902,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "挖苦了",
         "Emb2_object": "模特",
-        "sentence": "仓库管理员想知道采购员为什么写保险代理人挖苦了模特。"
+        "sentence": "仓库管理员想知道采购员为什么写下来保险代理人挖苦了模特。"
     },
     {
         "unique_id": 124142,
@@ -17918,7 +17918,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "挖苦了",
         "Emb2_object": "模特",
-        "sentence": "仓库管理员想知道采购员写保险代理人为什么挖苦了模特。"
+        "sentence": "仓库管理员想知道采购员写下来保险代理人为什么挖苦了模特。"
     },
     {
         "unique_id": 125011,
@@ -18350,7 +18350,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "吓唬了",
         "Emb2_object": "快餐店员",
-        "sentence": "美容师想知道房东为什么写营养师吓唬了快餐店员。"
+        "sentence": "美容师想知道房东为什么写下来营养师吓唬了快餐店员。"
     },
     {
         "unique_id": 125142,
@@ -18366,7 +18366,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "吓唬了",
         "Emb2_object": "快餐店员",
-        "sentence": "美容师想知道房东写营养师为什么吓唬了快餐店员。"
+        "sentence": "美容师想知道房东写下来营养师为什么吓唬了快餐店员。"
     },
     {
         "unique_id": 126011,
@@ -18798,7 +18798,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "监视了",
         "Emb2_object": "调酒师",
-        "sentence": "制片人想知道健身教练为什么写化妆师监视了调酒师。"
+        "sentence": "制片人想知道健身教练为什么写下来化妆师监视了调酒师。"
     },
     {
         "unique_id": 126142,
@@ -18814,7 +18814,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "监视了",
         "Emb2_object": "调酒师",
-        "sentence": "制片人想知道健身教练写化妆师为什么监视了调酒师。"
+        "sentence": "制片人想知道健身教练写下来化妆师为什么监视了调酒师。"
     },
     {
         "unique_id": 127011,
@@ -19246,7 +19246,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "谋害了",
         "Emb2_object": "程序员",
-        "sentence": "法医想知道业务员为什么写罪犯谋害了程序员。"
+        "sentence": "法医想知道业务员为什么写下来罪犯谋害了程序员。"
     },
     {
         "unique_id": 127142,
@@ -19262,7 +19262,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "谋害了",
         "Emb2_object": "程序员",
-        "sentence": "法医想知道业务员写罪犯为什么谋害了程序员。"
+        "sentence": "法医想知道业务员写下来罪犯为什么谋害了程序员。"
     },
     {
         "unique_id": 128011,
@@ -19694,7 +19694,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "威胁了",
         "Emb2_object": "大臣",
-        "sentence": "丞相想知道皇上为什么写将军威胁了大臣。"
+        "sentence": "丞相想知道皇上为什么写下来将军威胁了大臣。"
     },
     {
         "unique_id": 128142,
@@ -19710,7 +19710,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "威胁了",
         "Emb2_object": "大臣",
-        "sentence": "丞相想知道皇上写将军为什么威胁了大臣。"
+        "sentence": "丞相想知道皇上写下来将军为什么威胁了大臣。"
     },
     {
         "unique_id": 129011,
@@ -20142,7 +20142,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "抚养了",
         "Emb2_object": "小女孩",
-        "sentence": "编辑想知道法务顾问为什么写杂技演员抚养了小女孩。"
+        "sentence": "编辑想知道法务顾问为什么写下来杂技演员抚养了小女孩。"
     },
     {
         "unique_id": 129142,
@@ -20158,7 +20158,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "抚养了",
         "Emb2_object": "小女孩",
-        "sentence": "编辑想知道法务顾问写杂技演员为什么抚养了小女孩。"
+        "sentence": "编辑想知道法务顾问写下来杂技演员为什么抚养了小女孩。"
     },
     {
         "unique_id": 130011,
@@ -20590,7 +20590,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "赞美了",
         "Emb2_object": "剧作家",
-        "sentence": "舞蹈老师想知道实习生为什么写歌手赞美了剧作家。"
+        "sentence": "舞蹈老师想知道实习生为什么写下来歌手赞美了剧作家。"
     },
     {
         "unique_id": 130142,
@@ -20606,7 +20606,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "赞美了",
         "Emb2_object": "剧作家",
-        "sentence": "舞蹈老师想知道实习生写歌手为什么赞美了剧作家。"
+        "sentence": "舞蹈老师想知道实习生写下来歌手为什么赞美了剧作家。"
     },
     {
         "unique_id": 131011,
@@ -21038,7 +21038,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "讨好了",
         "Emb2_object": "理发师",
-        "sentence": "心理学家想知道大学生为什么写保姆讨好了理发师。"
+        "sentence": "心理学家想知道大学生为什么写下来保姆讨好了理发师。"
     },
     {
         "unique_id": 131142,
@@ -21054,7 +21054,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "讨好了",
         "Emb2_object": "理发师",
-        "sentence": "心理学家想知道大学生写保姆为什么讨好了理发师。"
+        "sentence": "心理学家想知道大学生写下来保姆为什么讨好了理发师。"
     },
     {
         "unique_id": 132011,
@@ -21486,7 +21486,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "出卖了",
         "Emb2_object": "水手",
-        "sentence": "助手想知道军官为什么写老师出卖了水手。"
+        "sentence": "助手想知道军官为什么写下来老师出卖了水手。"
     },
     {
         "unique_id": 132142,
@@ -21502,7 +21502,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "出卖了",
         "Emb2_object": "水手",
-        "sentence": "助手想知道军官写老师为什么出卖了水手。"
+        "sentence": "助手想知道军官写下来老师为什么出卖了水手。"
     },
     {
         "unique_id": 217011,
@@ -21934,7 +21934,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "邀请了",
         "Emb2_object": "神父",
-        "sentence": "会计想知道谁写编辑邀请了神父。"
+        "sentence": "会计想知道谁写下来编辑邀请了神父。"
     },
     {
         "unique_id": 217142,
@@ -21950,7 +21950,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "邀请了",
         "Emb2_object": "神父",
-        "sentence": "会计想知道演员写编辑邀请了谁。"
+        "sentence": "会计想知道演员写下来编辑邀请了谁。"
     },
     {
         "unique_id": 218011,
@@ -22382,7 +22382,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "责备了",
         "Emb2_object": "经济学家",
-        "sentence": "船长想知道谁写飞行员责备了经济学家。"
+        "sentence": "船长想知道谁写下来飞行员责备了经济学家。"
     },
     {
         "unique_id": 218142,
@@ -22398,7 +22398,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "责备了",
         "Emb2_object": "经济学家",
-        "sentence": "船长想知道建筑师写飞行员责备了谁。"
+        "sentence": "船长想知道建筑师写下来飞行员责备了谁。"
     },
     {
         "unique_id": 219011,
@@ -22830,7 +22830,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "夸奖了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道谁写和尚夸奖了乞丐。"
+        "sentence": "经理想知道谁写下来和尚夸奖了乞丐。"
     },
     {
         "unique_id": 219142,
@@ -22846,7 +22846,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "夸奖了",
         "Emb2_object": "乞丐",
-        "sentence": "经理想知道道士写和尚夸奖了谁。"
+        "sentence": "经理想知道道士写下来和尚夸奖了谁。"
     },
     {
         "unique_id": 220011,
@@ -23278,7 +23278,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "指责了",
         "Emb2_object": "心理医生",
-        "sentence": "售货员想知道谁写摄影师指责了心理医生。"
+        "sentence": "售货员想知道谁写下来摄影师指责了心理医生。"
     },
     {
         "unique_id": 220142,
@@ -23294,7 +23294,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "指责了",
         "Emb2_object": "心理医生",
-        "sentence": "售货员想知道作曲家写摄影师指责了谁。"
+        "sentence": "售货员想知道作曲家写下来摄影师指责了谁。"
     },
     {
         "unique_id": 221011,
@@ -23726,7 +23726,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "采访了",
         "Emb2_object": "税务员",
-        "sentence": "省长想知道谁写小报记者采访了税务员。"
+        "sentence": "省长想知道谁写下来小报记者采访了税务员。"
     },
     {
         "unique_id": 221142,
@@ -23742,7 +23742,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "采访了",
         "Emb2_object": "税务员",
-        "sentence": "省长想知道药剂师写小报记者采访了谁。"
+        "sentence": "省长想知道药剂师写下来小报记者采访了谁。"
     },
     {
         "unique_id": 222011,
@@ -24174,7 +24174,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "嘲讽了",
         "Emb2_object": "哲学家",
-        "sentence": "顾问想知道谁写生物学家嘲讽了哲学家。"
+        "sentence": "顾问想知道谁写下来生物学家嘲讽了哲学家。"
     },
     {
         "unique_id": 222142,
@@ -24190,7 +24190,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "嘲讽了",
         "Emb2_object": "哲学家",
-        "sentence": "顾问想知道外交官写生物学家嘲讽了谁。"
+        "sentence": "顾问想知道外交官写下来生物学家嘲讽了谁。"
     },
     {
         "unique_id": 223011,
@@ -24622,7 +24622,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "训斥了",
         "Emb2_object": "清洁工",
-        "sentence": "园丁想知道谁写焊工训斥了清洁工。"
+        "sentence": "园丁想知道谁写下来焊工训斥了清洁工。"
     },
     {
         "unique_id": 223142,
@@ -24638,7 +24638,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "训斥了",
         "Emb2_object": "清洁工",
-        "sentence": "园丁想知道水管工写焊工训斥了谁。"
+        "sentence": "园丁想知道水管工写下来焊工训斥了谁。"
     },
     {
         "unique_id": 224011,
@@ -25070,7 +25070,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "挖苦了",
         "Emb2_object": "模特",
-        "sentence": "仓库管理员想知道谁写保险代理人挖苦了模特。"
+        "sentence": "仓库管理员想知道谁写下来保险代理人挖苦了模特。"
     },
     {
         "unique_id": 224142,
@@ -25086,7 +25086,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "挖苦了",
         "Emb2_object": "模特",
-        "sentence": "仓库管理员想知道采购员写保险代理人挖苦了谁。"
+        "sentence": "仓库管理员想知道采购员写下来保险代理人挖苦了谁。"
     },
     {
         "unique_id": 225011,
@@ -25518,7 +25518,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "吓唬了",
         "Emb2_object": "快餐店员",
-        "sentence": "美容师想知道谁写营养师吓唬了快餐店员。"
+        "sentence": "美容师想知道谁写下来营养师吓唬了快餐店员。"
     },
     {
         "unique_id": 225142,
@@ -25534,7 +25534,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "吓唬了",
         "Emb2_object": "快餐店员",
-        "sentence": "美容师想知道房东写营养师吓唬了谁。"
+        "sentence": "美容师想知道房东写下来营养师吓唬了谁。"
     },
     {
         "unique_id": 226011,
@@ -25966,7 +25966,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "监视了",
         "Emb2_object": "调酒师",
-        "sentence": "制片人想知道谁写化妆师监视了调酒师。"
+        "sentence": "制片人想知道谁写下来化妆师监视了调酒师。"
     },
     {
         "unique_id": 226142,
@@ -25982,7 +25982,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "监视了",
         "Emb2_object": "调酒师",
-        "sentence": "制片人想知道健身教练写化妆师监视了谁。"
+        "sentence": "制片人想知道健身教练写下来化妆师监视了谁。"
     },
     {
         "unique_id": 227011,
@@ -26414,7 +26414,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "谋害了",
         "Emb2_object": "程序员",
-        "sentence": "法医想知道谁写罪犯谋害了程序员。"
+        "sentence": "法医想知道谁写下来罪犯谋害了程序员。"
     },
     {
         "unique_id": 227142,
@@ -26430,7 +26430,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "谋害了",
         "Emb2_object": "程序员",
-        "sentence": "法医想知道业务员写罪犯谋害了谁。"
+        "sentence": "法医想知道业务员写下来罪犯谋害了谁。"
     },
     {
         "unique_id": 228011,
@@ -26862,7 +26862,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "威胁了",
         "Emb2_object": "大臣",
-        "sentence": "丞相想知道谁写将军威胁了大臣。"
+        "sentence": "丞相想知道谁写下来将军威胁了大臣。"
     },
     {
         "unique_id": 228142,
@@ -26878,7 +26878,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "威胁了",
         "Emb2_object": "大臣",
-        "sentence": "丞相想知道皇上写将军威胁了谁。"
+        "sentence": "丞相想知道皇上写下来将军威胁了谁。"
     },
     {
         "unique_id": 229011,
@@ -27310,7 +27310,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "抚养了",
         "Emb2_object": "小女孩",
-        "sentence": "编辑想知道谁写杂技演员抚养了小女孩。"
+        "sentence": "编辑想知道谁写下来杂技演员抚养了小女孩。"
     },
     {
         "unique_id": 229142,
@@ -27326,7 +27326,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "抚养了",
         "Emb2_object": "小女孩",
-        "sentence": "编辑想知道法务顾问写杂技演员抚养了谁。"
+        "sentence": "编辑想知道法务顾问写下来杂技演员抚养了谁。"
     },
     {
         "unique_id": 230011,
@@ -27758,7 +27758,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "赞美了",
         "Emb2_object": "剧作家",
-        "sentence": "舞蹈老师想知道谁写歌手赞美了剧作家。"
+        "sentence": "舞蹈老师想知道谁写下来歌手赞美了剧作家。"
     },
     {
         "unique_id": 230142,
@@ -27774,7 +27774,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "赞美了",
         "Emb2_object": "剧作家",
-        "sentence": "舞蹈老师想知道实习生写歌手赞美了谁。"
+        "sentence": "舞蹈老师想知道实习生写下来歌手赞美了谁。"
     },
     {
         "unique_id": 231011,
@@ -28206,7 +28206,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "讨好了",
         "Emb2_object": "理发师",
-        "sentence": "心理学家想知道谁写保姆讨好了理发师。"
+        "sentence": "心理学家想知道谁写下来保姆讨好了理发师。"
     },
     {
         "unique_id": 231142,
@@ -28222,7 +28222,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "讨好了",
         "Emb2_object": "理发师",
-        "sentence": "心理学家想知道大学生写保姆讨好了谁。"
+        "sentence": "心理学家想知道大学生写下来保姆讨好了谁。"
     },
     {
         "unique_id": 232011,
@@ -28654,7 +28654,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "出卖了",
         "Emb2_object": "水手",
-        "sentence": "助手想知道谁写老师出卖了水手。"
+        "sentence": "助手想知道谁写下来老师出卖了水手。"
     },
     {
         "unique_id": 232142,
@@ -28670,7 +28670,7 @@ const all_stimuli = [
         "Wh2": "为什么",
         "Emb2_verb": "出卖了",
         "Emb2_object": "水手",
-        "sentence": "助手想知道军官写老师出卖了谁。"
+        "sentence": "助手想知道军官写下来老师出卖了谁。"
     },
     {
         "unique_id": 900001,
