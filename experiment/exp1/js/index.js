@@ -44,11 +44,11 @@ function removeFromArray(arr, elements) {
 }
 
 /// randomly select 2 bridge verbs and 6 unknown verbs
-//var bridge_verb_list = shuffle([1,9,13]).slice(0,2);
-//var unknown_verb_list = shuffle([2,3,4,5,6,7,8,10,11,12,14]).slice(0,6);
+var bridge_verb_list = shuffle([1,9,13]).slice(0,2);
+var unknown_verb_list = shuffle([2,3,4,5,6,7,8,10,11,12,14]).slice(0,6);
 
-var bridge_verb_list = [1,9];
-var unknown_verb_list = [2,3,4,5,6,7];
+//var bridge_verb_list = [1,9];
+//var unknown_verb_list = [2,3,4,5,6,7];
 
 
 ///add bridge verb items to the presentation list (lacking lexicalization information)
