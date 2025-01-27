@@ -1,0 +1,813 @@
+title: "Chinese bridge effect experiment analysis script"\
+
+```{r}
+this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(this.dir)
+source('helpers.R')
+
+library(plyr)
+library(dplyr)
+library(reshape)
+library(ggplot2)
+library(gtable)
+library(lme4)
+library(tidyverse)
+library(lmerTest)
+library(bootstrap)
+library(ggpubr)
+library(stringr)
+library(brms)
+library(BayesFactor)
+library(bootstrap)
+library(patchwork)
+library(gridExtra)
+
+theta <- function(x,xdata,na.rm=T) {mean(xdata[x],na.rm=na.rm)}
+
+cbPalette = c("#d55e00", "#009e74","#e69d00","#cc79a7", "#0071b2")
+
+`%notin%` <- Negate(`%in%`)
+data_path <- "cleaned_data.csv"
+
+data_no_fill<-read.csv(data_path)
+data_no_fill$verb_id <- as.numeric(substr(as.character(data_no_fill$sentence_id), 4, 5))
+data_no_fill$verb_type <- ifelse(data_no_fill$verb_id %in% c(1, 9, 13), "bridge", "unknown")
+data_no_fill$length <- as.factor(data_no_fill$length)
+data_no_fill$length <- factor(data_no_fill$length, levels = c("short", "long"))
+
+```
+
+
+First, looking at the bridge verbs (classified by Tsai (1994)). The patterns shows that there is an "argument-adjunct" asymmetry even in the bridge verb conditions: extraction of "why" form the complement of bridge verb is degraded:
+
+```{r}
+data_1 <- data_no_fill %>%
+  filter(verb_id %in% c(1)) %>%
+  group_by( wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_1 <- 
+  ggplot(data_1, aes(x = length, y = Mean, linetype  = wh_type, group = wh_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("shuo (say)") + 
+  ylim(0,1)
+
+data_9 <- data_no_fill %>%
+  filter(verb_id %in% c(9)) %>%
+  group_by( wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+plot_9 <- 
+  ggplot(data_9, aes(x = length, y = Mean, linetype  = wh_type, group = wh_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("cai (guess)") + 
+  ylim(0,1)
+
+
+data_13 <- data_no_fill %>%
+  filter(verb_id %in% c(13)) %>%
+  group_by( wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+plot_13 <- 
+  ggplot(data_13, aes(x = length, y = Mean, linetype  = wh_type, group = wh_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("renwei (think)") + 
+  ylim(0,1)
+
+
+combined_plot_bridge <- arrangeGrob(plot_1, plot_9, plot_13, nrow = 1)
+ggsave(file = "combined_plot_bridge.jpg", combined_plot_bridge, width = 6, height = 2, dpi = 300, units = "in")
+
+```
+
+Now, turning to the unclassified verbs:
+
+```{r}
+data_2 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13,2)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_2 <- 
+  ggplot(data_2, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("juede (feel/think)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+data_3 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 3)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_3 <- 
+  ggplot(data_3, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("xiwang (hope)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+
+data_4 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 4)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_4 <- 
+  ggplot(data_4, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("shuoming (explain)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+data_5 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13,5)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_5 <- 
+  ggplot(data_5, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("xiang (think/presume)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+data_6 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13,6)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_6 <- 
+  ggplot(data_6, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("pa (worry/fear)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+
+data_7 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 7)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_7 <- 
+  ggplot(data_7, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("xihuan (like)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+data_8 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 8)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_8 <- 
+  ggplot(data_8, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("jide (remember)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+data_10 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 10)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_10 <- 
+  ggplot(data_10, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("jiazhuang (pretend)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+data_11 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 11)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_11 <- 
+  ggplot(data_11, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("haipa (fear)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+
+
+data_12 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 12)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_12 <- 
+  ggplot(data_12, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("ganjue (feel)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+data_14 <- data_no_fill %>%
+  filter(verb_id %in% c(1,9,13, 14)) %>%
+  group_by(verb_type, wh_type, length)%>%
+  summarize(Mean = mean(response), CILow = ci.low(response), CIHigh = ci.high(response)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+plot_14 <- 
+  ggplot(data_14, aes(x = length, y = Mean, color = verb_type, group = verb_type)) +
+  geom_line() +
+  geom_point() +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax), width = 0.5,  show.legend = FALSE) +
+  scale_color_manual(values = cbPalette, name = NULL) + 
+  theme_bw() +
+  xlab("Condition") +
+  ylab("Mean acceptability rating") +
+  theme(legend.position = "bottom") +
+  ggtitle("xie (write)") + 
+  ylim(0,1)+
+  facet_wrap(~wh_type)
+
+
+#combined_plot1 <- (plot_2 | plot_3 | plot_4) /
+ # (plot_5 | plot_6 | plot_7) 
+#combined_plot1
+  
+#combined_plot2 <- (plot_8 | plot_10 | plot_11) /
+#  (plot_12 | plot_14 ) 
+#combined_plot2
+
+combined_plot3 <- arrangeGrob(plot_2, plot_3, plot_4, plot_5, plot_6, plot_7, plot_8, plot_10, plot_11, plot_12, plot_14, nrow = 2)
+ggsave(file = "combined_plot_3row.jpg", combined_plot3, width = 15, height = 5, dpi = 300, units = "in")
+
+```
+
+Overall, we see a lack of bridge effect in the unclassified verbs, and an argument-adjunct asymmetry that applies across all verbs. Let's verify this with a regression analysis.
+
+First, getting the data ready for stats:
+
+```{r}
+
+data_no_fill$length <- as.factor(data_no_fill$length)
+data_no_fill$verb_type <- as.factor(data_no_fill$verb_type)
+data_no_fill$wh_type <- as.factor(data_no_fill$wh_type)
+data_no_fill$length <- relevel(data_no_fill$length, ref = "short")
+data_no_fill$verb_type <- relevel(data_no_fill$verb_type, ref = "bridge")
+data_no_fill$wh_type <- relevel(data_no_fill$wh_type, ref = "adj")
+contrasts(data_no_fill$length) <- contr.sum(2)
+contrasts(data_no_fill$verb_type) <- contr.sum(2)
+contrasts(data_no_fill$wh_type) <- contr.sum(2)
+
+```
+
+Now, let's first examine whether the argument-adjunct asymmetry stands in the three bridge verb conditions. The significantly positive length\*wh_type interaction (beta = 0.051, SE = 0.007, t = 6.86, p \< 0.001) suggests that the length penalty is greater for the wh-adjunct conditions than the wh-argument conditions.
+
+```{r}
+model_bridge <- lmer(response ~ length * wh_type +
+                  (1+ length * wh_type |workerid) + 
+                  (1 + length * wh_type | item),
+                data = subset(data_no_fill, verb_id %in% c(1,9,13)))
+
+summary(model_bridge)  
+```
+
+Then, for each unclassified verb, we can examine: (a) if the argument-adjunct asymmetry in the length penalty exists, as in the three bridge verbs; (b) if the length penalty is greater than the one seen for bridge verbs (i.e., showing a "bridge effect).
+
+(1) verb = 觉得: there is arg-adj asymmetry in the length penalty, and no bridge effect in either wh-argument or wh-adjunct condition.
+
+```{r}
+model_2 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length - length |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(2)))
+
+summary(model_2)
+
+model_2arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length - verb_type|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,2)), wh_type == "arg")
+)
+summary(model_2arg)  
+
+model_2adj <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length |item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,2)), wh_type == "adj")
+)
+summary(model_2adj)  
+```
+
+To verify the null results, we can run a bayes factor analysis: For the wh-arg condition, BF = 0.1220, and for the wh-adj condition, BF = 0.1107, both favoring the null hypothesis.
+
+```{r}
+BF_2_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,2)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_2_arg
+
+BF_2_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,2)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_2_adj
+```
+
+(2) verb = 希望: arg-adj asymmetry exists, marginal evidence for anti-bridge effect for wh-arg, and not for wh-adj.
+
+```{r}
+model_3 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(3)))
+
+summary(model_3)
+
+model_3arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,3)), wh_type == "arg")
+)
+summary(model_3arg)  
+
+model_3adj <- lmer(response ~ verb_type * length+
+                   (1 + verb_type  |item) +
+                   (1 + verb_type + length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,3)), wh_type == "adj")
+)
+summary(model_3adj)
+```
+
+To verify the null results, we can run a bayes factor analysis: For the wh-arg condition, BF = 0.3520 (inconclusive); for the wh-adj condition, BF = 0.1223, favoring the null hypothesis.
+
+```{r}
+BF_3_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,3)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_3_arg
+
+BF_3_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,3)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_3_adj
+```
+
+(3) verb = 说明: no arg-adjunct asymmetry; for wh-adjunct, there is an "anti-bridge effect"; for wh-argument, there is no evidence for bridge effect.
+
+```{r}
+model_4 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(4)))
+
+summary(model_4)
+
+model_4arg <- lmer(response ~ verb_type * length+
+                   (0+ verb_type |item) +
+                   (1 + verb_type |workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,4)), wh_type == "arg")
+)
+summary(model_4arg)  
+
+model_4adj <- lmer(response ~ verb_type * length+
+                   (1 + verb_type + length|item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,4)), wh_type == "adj")
+)
+summary(model_4adj)
+```
+
+To verify the null result for wh-arg, we can run a bayes factor analysis: BF = 0.1536, favoring the null hypothesis.
+
+```{r}
+BF_4_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,4)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_4_arg
+```
+
+(4) verb = 想: no argument-adjunct asymmetry; anti-bridge effect for wh-adjunct, and no bridge effect for wh-argument.
+
+```{r}
+model_5 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1 + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(5)))
+
+summary(model_5)
+
+model_5arg <- lmer(response ~ verb_type * length+
+                   (1 +verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,5)), wh_type == "arg")
+)
+summary(model_5arg)  
+
+model_5adj <- lmer(response ~ verb_type * length+
+                   (0 + verb_type * length - length|item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,5)), wh_type == "adj")
+)
+summary(model_5adj)
+```
+
+To verify the null result for wh-arg, we can run a bayes factor analysis: BF = 0.1174, favoring the null hypothesis.
+
+```{r}
+BF_5_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,5)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_5_arg
+```
+
+(5) verb = 怕: arg-adj asymmetry exists, and no bridge effect detected.
+
+```{r}
+model_6 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(6)))
+
+summary(model_6)
+
+model_6arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,6)), wh_type == "arg")
+)
+summary(model_6arg)  
+
+model_6adj <- lmer(response ~ verb_type * length+
+                   (0   + length|item) +
+                   (1 + verb_type + length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,6)), wh_type == "adj")
+)
+summary(model_6adj)
+```
+
+To verify the null results, we can run a bayes factor analysis: for wh-arg, BF = 0.1129; for wh-adj, BF = 0.1195, both favoring the null hypothesis.
+
+```{r}
+BF_6_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,6)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_6_arg
+
+BF_6_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,6)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_6_adj
+```
+
+(6) verb = 喜欢: No arg-adj asymmetry, no bridge effect for wh-arg, and anti-bridge effect for wh-adj.
+
+```{r}
+model_7 <- lmer(response ~ wh_type * length  +
+                  (1 +wh_type * length - length |item) +
+                  (1|workerid),
+                data = subset(data_no_fill, verb_id %in% c(7)))
+
+summary(model_7)
+
+model_7arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,7)), wh_type == "arg")
+)
+summary(model_7arg)  
+
+model_7adj <- lmer(response ~ verb_type * length+
+                     (1|item)+
+                   (1 + verb_type * length - length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,7)), wh_type == "adj")
+)
+summary(model_7adj)
+```
+
+To verify the null result observed in the wh-arg analysis, we can run a bayes factor analysis: BF = 0.1251, favoring the null hypothesis.
+
+```{r}
+BF_7_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,7)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_7_arg
+
+
+```
+
+(7) verb = 记得: no arg-adj asymmetry, bridge effect for wh-arg, but not wh-adj. This is an interesting result: wh-argument shows bridge effect, but wh-adjunct does not; this is the opposite of the arg-adj asymmetry that Tsai (1994) suggested.
+
+```{r}
+model_8 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(8)))
+
+summary(model_8)
+
+model_8arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,8)), wh_type == "arg")
+)
+summary(model_8arg)  
+
+model_8adj <- lmer(response ~ verb_type * length+
+                   (0 + verb_type * length - length |item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,8)), wh_type == "adj")
+)
+summary(model_8adj)
+```
+
+To verify the null result in the wh-adj analysis, we can conduct a BF analysis: BF = 0.1184, favoring the null hypothesis.
+
+```{r}
+BF_8_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,8)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_8_adj
+
+
+```
+
+(8) verb = 假装: arg-adj asymmetry exists, and no bridge effect in either wh-arg or wh-adj
+
+```{r}
+model_10 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(10)))
+
+summary(model_10)
+
+model_10arg <- lmer(response ~ verb_type * length+
+                   (0 + verb_type * length|item) +
+                   (1 + verb_type * length - length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,10)), wh_type == "arg")
+)
+summary(model_10arg)  
+
+model_10adj <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,10)), wh_type == "adj")
+)
+summary(model_10adj)
+```
+
+To verify the null results observed in the analysis, we can run a bayes factor analysis: for wh-arg, BF = 0.1356; for wh-adj, BF = 0.1262, favoring the null hypotheses.
+
+```{r}
+BF_10_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,10)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_10_arg
+
+BF_10_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,10)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_10_adj
+
+```
+
+(9) verb = 害怕: significant arg-adj asymmetry, marginal anti-bridge effect for wh-arg, and no bridge effect for wh-adj.
+
+```{r}
+model_11 <- lmer(response ~ wh_type * length  +
+                  (1 + wh_type * length - wh_type  |item) +
+                  (1+ wh_type  |workerid),
+                data = subset(data_no_fill, verb_id %in% c(11)))
+
+summary(model_11)
+
+model_11arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,11)), wh_type == "arg")
+)
+summary(model_11arg)  
+
+model_11adj <- lmer(response ~ verb_type * length+
+                   (1+verb_type + length|item) +
+                   (1 + verb_type * length - verb_type|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,11)), wh_type == "adj")
+)
+summary(model_11adj)
+```
+
+To verify the null result observed in the wh-adj analysis, we can run a bayes factor analysis: BF = 0.1589, favoring the null hypothesis.
+
+```{r}
+
+BF_11_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,11)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_11_adj
+
+```
+
+(10) verb = 感觉: there is argument-adjunct asymmetry, and no bridge effect for either wh-arg or wh-adj.
+
+```{r}
+model_12 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(12)))
+
+summary(model_12)
+
+model_12arg <- lmer(response ~ verb_type * length+
+                   (1 +  verb_type + length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,12)), wh_type == "arg")
+)
+summary(model_12arg)  
+
+model_12adj <- lmer(response ~ verb_type * length+
+                   (0 +verb_type * length - length|item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,12)), wh_type == "adj")
+)
+summary(model_12adj)
+```
+
+To verify the null results observed, we can run a bayes factor analysis: for wh-arg, BF = 0.1496; for wh-adj, BF = 0.1826 favoring the null hypotheses.
+
+```{r}
+
+BF_12_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,12)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_12_adj
+
+BF_12_adj <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,12)), wh_type == "adj"), rscaleFixed = "medium")
+
+BF_12_adj
+
+```
+
+(11) verb = 写: there is no evidence for arg-adj asymmetry; there is no bridge effect for wh-arg, and there is a marginal anti-bridge effect for wh-adj.
+
+```{r}
+model_14 <- lmer(response ~ wh_type * length  +
+                  (1+wh_type * length  |item) +
+                  (1+ wh_type + length|workerid),
+                data = subset(data_no_fill, verb_id %in% c(14)))
+
+summary(model_14)
+
+model_14arg <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length|item) +
+                   (1 + verb_type * length|workerid),
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,14)), wh_type == "arg")
+)
+summary(model_14arg)  
+
+model_14adj <- lmer(response ~ verb_type * length+
+                   (1 + verb_type * length |item) +
+                   (1 + verb_type * length|workerid),
+                   
+                 data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,14)), wh_type == "adj")
+)
+summary(model_14adj)
+```
+
+To verify the null result observed in the wh-arg analysis, we can run a bayes factor analysis: BF = 0.1491, favoring the null hypothesis.
+
+```{r}
+
+BF_14_arg <- generalTestBF(response~verb_type + length + verb_type : length, data = subset(subset(data_no_fill, verb_id %in% c(1,9,13,14)), wh_type == "arg"), rscaleFixed = "medium")
+
+BF_14_arg
+
+```
