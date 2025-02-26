@@ -45,7 +45,7 @@ function removeFromArray(arr, elements) {
 
 /// randomly select 2 bridge verbs and 6 unknown verbs
 var bridge_verb_list = shuffle([12,13,14]).slice(0,2);
-var unknown_verb_list = shuffle([1,2,3,4,5,6,7,8,9,10,11,12]).slice(0,6);
+var unknown_verb_list = shuffle([1,2,3,4,5,6,7,8,9,10,11]).slice(0,6);
 
 console.log(bridge_verb_list);
 console.log(unknown_verb_list);
