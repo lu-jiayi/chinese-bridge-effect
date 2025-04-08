@@ -25,7 +25,7 @@ ci.high <- function(x,na.rm=T) {
 cbPalette = c("#d55e00", "#009e74","#e69d00","#cc79a7", "#0071b2")
 
 `%notin%` <- Negate(`%in%`)
-raw_data_path <- "data_raw.csv"
+raw_data_path <- "data_exp2.csv"
 data<-read.csv(raw_data_path)
 
 
@@ -61,4 +61,5 @@ data = subset(data, workerid %in% eligible_subjects)
 ##
 data_no_fill <- subset(data, is.na(item) == FALSE)
 
-write.csv(data_no_fill, "cleaned_data2.csv")
+write.csv(data_no_fill, "cleaned_data_exp2.csv")
+

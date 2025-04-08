@@ -1,4 +1,4 @@
-﻿Unique_id,Lexicalization,wh-type,Verb,Length,Matrix,Emb_subj,Wh1,Emb_verb,Emb2_subj,Wh2,Emb2_verb,Emb2_object,sentence
+﻿unique_id,Lexicalization,wh-type,Verb,Length,Matrix,Emb_subj,Wh1,Emb_verb,Emb2_subj,Wh2,Emb2_verb,Emb2_object,sentence
 101011,1,adj,怀疑,short,老师想知道,学生,为什么,怀疑,修理工,,打了,快递员,老师想知道学生为什么怀疑修理工打了快递员。
 101012,1,adj,怀疑,long,老师想知道,学生,,怀疑,修理工,为什么,打了,快递员,老师想知道学生怀疑修理工为什么打了快递员。
 101021,1,adj,坚称,short,老师想知道,学生,为什么,坚称,修理工,,打了,快递员,老师想知道学生为什么坚称修理工打了快递员。
