@@ -14560,7 +14560,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "国家领导人批准干部可以离职翻译官。"
+        "sentence": "国家领导人批准干部可以偷懒翻译官。"
     },
     {
         "unique_id": 900015,
@@ -14576,7 +14576,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "文艺评论家怀疑编辑可以偷懒教授。"
+        "sentence": "文艺评论家怀疑编辑可以走路教授。"
     },
     {
         "unique_id": 900016,
@@ -14592,7 +14592,7 @@ const all_stimuli = [
         "Wh2": "",
         "Emb2_verb": "",
         "Emb2_object": "",
-        "sentence": "农业专家相信天文学家可以退休物理学家。"
+        "sentence": "农业专家相信天文学家可以吃饭物理学家。"
     },
     {
         "unique_id": 900017,
